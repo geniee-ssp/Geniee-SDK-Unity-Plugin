@@ -9,7 +9,7 @@ Geniee SDK Unity Plugin は、Unity アプリケーション内に広告を表�
 
 ## ダウンロード
 
-以下の URL から Geniee Android SDK をダウンロードします。
+以下の URL から Geniee SDK Unity Plugin をダウンロードします。
 
 - **[Geniee-SDK-Unity-Plugin](https://github.com/geniee-ssp/Geniee-SDK-Unity-Plugin/releases)**
 
