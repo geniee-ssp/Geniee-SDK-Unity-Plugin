@@ -2,10 +2,10 @@
 
 Geniee SDK Unity Plugin は、Unity アプリケーション内に広告を表示するための SDK Plugin です。
 
-以下の機能を備えています。  
-- 広告の表示
-- 広告のタッチによる、広告主様サイトの表示(ブラウザアプリの起動)
-- 表示広告の自動更新
+以下のフォーマットに対応しています。
+- [バナー広告とは](https://github.com/geniee-ssp/Geniee-SDK-Unity-Plugin/wiki/Banner-Readme)
+- [動画リワード広告](https://github.com/geniee-ssp/Geniee-SDK-Unity-Plugin/wiki/RewardVideo-Readme)
+- [DFP動画リワードメディエーション広告](https://github.com/geniee-ssp/Geniee-SDK-Unity-Plugin/wiki/RewardVideo-Readme_DFP)
 
 ## ダウンロード
 
@@ -22,7 +22,3 @@ Geniee SDK Unity Plugin は、Unity アプリケーション内に広告を表�
 
 [変更履歴](CHANGELOG.md) を参照してください。
 
-## 動作要件
-
-- バージョン2.2以降のAndroidを対象としています。
-- SDKのビルドターゲットはバージョン4.0となっています。
