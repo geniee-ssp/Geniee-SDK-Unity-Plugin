@@ -39,7 +39,7 @@
 #include <unistd.h>
 #include <sys/sysctl.h>
 
-//
+// we assume that app delegate is never changed and we can cache it, instead of re-query UIApplication every time
 UnityAppController* _UnityAppController = nil;
 
 // Standard Gesture Recognizers enabled on all iOS apps absorb touches close to the top and bottom of the screen.
@@ -153,6 +153,10 @@ extern "C" void UnityRequestQuit()
 #if !PLATFORM_TVOS
 - (NSUInteger)application:(UIApplication*)application supportedInterfaceOrientationsForWindow:(UIWindow*)window
 {
+    // No rootViewController is set because we are switching from one view controller to another, all orientations should be enabled
+    if ([window rootViewController] == nil)
+        return UIInterfaceOrientationMaskAll;
+
     // Before it was UIInterfaceOrientationAll because some presentation controllers insisted on being portrait only
     // (e.g. GameCenter) so we did that do avoid crashes.
     // As this was fixed in iOS 6.1 we can use exact same set of constraints as root view controller.
@@ -471,14 +475,15 @@ void UnityInitTrampoline()
 #endif
     InitCrashHandling();
 
-    _ios42orNewer = _ios43orNewer = _ios50orNewer = _ios60orNewer = _ios70orNewer = true;
+    _ios42orNewer = _ios43orNewer = _ios50orNewer = _ios60orNewer = _ios70orNewer = _ios80orNewer = true;
 
     NSString* version = [[UIDevice currentDevice] systemVersion];
 #define CHECK_VER(s) [version compare: s options: NSNumericSearch] != NSOrderedAscending
-    _ios80orNewer  = CHECK_VER(@"8.0"),  _ios81orNewer  = CHECK_VER(@"8.1"),  _ios82orNewer  = CHECK_VER(@"8.2"),  _ios83orNewer  = CHECK_VER(@"8.3");
+    _ios81orNewer  = CHECK_VER(@"8.1"),  _ios82orNewer  = CHECK_VER(@"8.2"),  _ios83orNewer  = CHECK_VER(@"8.3");
     _ios90orNewer  = CHECK_VER(@"9.0"),  _ios91orNewer  = CHECK_VER(@"9.1");
     _ios100orNewer = CHECK_VER(@"10.0"), _ios101orNewer = CHECK_VER(@"10.1"), _ios102orNewer = CHECK_VER(@"10.2"), _ios103orNewer = CHECK_VER(@"10.3");
     _ios110orNewer = CHECK_VER(@"11.0"), _ios111orNewer = CHECK_VER(@"11.1"), _ios112orNewer = CHECK_VER(@"11.2");
+
 #undef CHECK_VER
 
     AddNewAPIImplIfNeeded();

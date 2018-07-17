@@ -192,14 +192,11 @@ extern "C" void UnityCoreMotionStart()
 
     if (initMotionManager && sMotionManager.accelerometerAvailable)
     {
-        int frequency = UnityGetAccelerometerFrequency();
+        const int frequency = UnityGetAccelerometerFrequency();
         if (frequency > 0)
         {
-            [sMotionManager startAccelerometerUpdatesToQueue: sMotionQueue withHandler:^(CMAccelerometerData* data, NSError* error) {
-                Vector3f res = UnityReorientVector3(data.acceleration.x, data.acceleration.y, data.acceleration.z);
-                UnityDidAccelerate(res.x, res.y, res.z, data.timestamp);
-            }];
-            [sMotionManager setAccelerometerUpdateInterval: 1.0f / frequency];
+            sMotionManager.accelerometerUpdateInterval = 1.0f / frequency;
+            [sMotionManager startAccelerometerUpdates];
         }
     }
 #endif
@@ -214,6 +211,22 @@ extern "C" void UnityCoreMotionStop()
     {
         [sMotionManager stopGyroUpdates];
         [sMotionManager stopDeviceMotionUpdates];
+        [sMotionManager stopAccelerometerUpdates];
+    }
+#endif
+}
+
+extern "C" void UnityUpdateAccelerometerData()
+{
+#if !PLATFORM_TVOS
+    if (sMotionManager)
+    {
+        CMAccelerometerData* data = sMotionManager.accelerometerData;
+        if (data != nil)
+        {
+            Vector3f res = UnityReorientVector3(data.acceleration.x, data.acceleration.y, data.acceleration.z);
+            UnityDidAccelerate(res.x, res.y, res.z, data.timestamp);
+        }
     }
 #endif
 }

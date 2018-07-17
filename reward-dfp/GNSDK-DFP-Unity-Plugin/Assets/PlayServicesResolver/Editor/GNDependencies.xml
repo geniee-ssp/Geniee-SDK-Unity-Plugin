@@ -264,7 +264,6 @@
       </sources>
     </iosPod>
 
-    <!--
     <iosPod name="AdColony" version="~> 3.3.4" />
 
     <iosPod name="AppLovinSDK" version="~> 5.0.1" />
@@ -279,10 +278,9 @@
 
     <iosPod name="VungleSDK-iOS" version="~> 6.2.0" />
 
-    <iosPod name="Geniee-iOS-SDK" version="~> 3.1.0" />
+    <iosPod name="Geniee-iOS-SDK" />
 
     <iosPod name="Geniee-DFP-Mediation-Adapter" version="~> 3.1.0" />
-    -->
 
   </iosPods>
 </dependencies>

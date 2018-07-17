@@ -73,6 +73,10 @@ typedef enum UnityFramebufferTarget
 void    UnityBindFramebuffer(UnityFramebufferTarget target, int fbo);
 void    UnityRegisterFBO(UnityRenderBufferHandle color, UnityRenderBufferHandle depth, unsigned fbo);
 
+// when texture (managed in trampoline) is used in unity (e.g. with external render surfaces)
+// we need to poke unity when we delete it (so it could clear caches etc)
+void    UnityOnDeleteGLTexture(int tex);
+
 // controling player internals
 
 // TODO: needs some cleanup
@@ -180,6 +184,7 @@ void    UnityReportWWWReceivedResponse(void* udata, unsigned expectedDataLength)
 void    UnityReportWWWReceivedData(void* udata, const void* buffer, unsigned totalRead, unsigned expectedTotal);
 void    UnityReportWWWFinishedLoadingData(void* udata);
 void    UnityReportWWWSentData(void* udata, unsigned totalWritten, unsigned expectedTotal);
+bool    UnityReportWWWValidateCertificate(void* udata, const void* certificateData, unsigned certificateSize);
 const void*   UnityWWWGetUploadData(void* udata, unsigned* bufferSize);
 void    UnityWWWConsumeUploadData(void* udata, unsigned consumedSize);
 
@@ -250,6 +255,7 @@ extern "C" {
 void            UnityInitJoysticks();
 void            UnityCoreMotionStart();
 void            UnityCoreMotionStop();
+void            UnityUpdateAccelerometerData();
 int             UnityIsGyroEnabled(int idx);
 int             UnityIsGyroAvailable();
 void            UnityUpdateGyroData();
@@ -285,21 +291,22 @@ void            UnityStartActivityIndicator();
 void            UnityStopActivityIndicator();
 
 // UI/Keyboard.mm
-void            UnityKeyboard_Create(unsigned keyboardType, int autocorrection, int multiline, int secure, int alert, const char* text, const char* placeholder);
+void            UnityKeyboard_Create(unsigned keyboardType, int autocorrection, int multiline, int secure, int alert, const char* text, const char* placeholder, int characterLimit);
 void            UnityKeyboard_Show();
 void            UnityKeyboard_Hide();
 void            UnityKeyboard_GetRect(float* x, float* y, float* w, float* h);
 void            UnityKeyboard_SetText(const char* text);
 NSString*       UnityKeyboard_GetText();
 int             UnityKeyboard_IsActive();
-int             UnityKeyboard_IsDone();
-int             UnityKeyboard_WasCanceled();
 int             UnityKeyboard_Status();
 void            UnityKeyboard_SetInputHidden(int hidden);
 int             UnityKeyboard_IsInputHidden();
+void            UnityKeyboard_SetCharacterLimit(unsigned characterLimit);
 
 int             UnityKeyboard_CanGetSelection();
 void            UnityKeyboard_GetSelection(int* location, int* range);
+int             UnityKeyboard_CanSetSelection();
+void            UnityKeyboard_SetSelection(int location, int range);
 
 // UI/UnityViewControllerBase.mm
 void            UnityNotifyAutoOrientationChange();
@@ -372,6 +379,9 @@ int         UnityGetAppleTVRemoteReportAbsoluteDpadValues();
 void        UnitySetAppleTVRemoteReportAbsoluteDpadValues(int val);
 int         UnityGetAppleTVRemoteTouchesEnabled();
 void        UnitySetAppleTVRemoteTouchesEnabled(int val);
+
+// Unity/UnityReplayKit.mm
+void         UnityShouldCreateReplayKitOverlay();
 
 #ifdef __cplusplus
 } // extern "C"

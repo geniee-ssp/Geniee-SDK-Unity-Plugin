@@ -184,7 +184,7 @@ static void ViewWillTransitionToSize_DefaultImpl(id self_, SEL _cmd, CGSize size
 {
     UIViewController* self = (UIViewController*)self_;
 
-    ScreenOrientation curOrient = ConvertToUnityScreenOrientation(self.interfaceOrientation);
+    ScreenOrientation curOrient = UIViewControllerOrientation(self);
     ScreenOrientation newOrient = OrientationAfterTransform(curOrient, [coordinator targetTransform]);
 
     // in case of presentation controller it will take control over orientations
@@ -213,7 +213,7 @@ static void ViewWillTransitionToSize_DefaultImpl(id self_, SEL _cmd, CGSize size
 extern "C" void AddViewControllerRotationHandling(Class class_, IMP willRotateToInterfaceOrientation, IMP didRotateFromInterfaceOrientation, IMP viewWillTransitionToSize)
 {
     // it is important to use class_addMethod as we absolutely dont want to change super class impl (but rather just add override)
-    if (_ios80orNewer && viewWillTransitionToSize)
+    if (viewWillTransitionToSize)
     {
         class_addMethod(class_, @selector(viewWillTransitionToSize:withTransitionCoordinator:), viewWillTransitionToSize, UIViewController_viewWillTransitionToSize_Enc);
     }

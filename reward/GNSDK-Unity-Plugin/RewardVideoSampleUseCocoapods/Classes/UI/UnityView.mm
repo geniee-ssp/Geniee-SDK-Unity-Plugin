@@ -149,7 +149,12 @@ extern bool _supportsMSAA;
             // if we are calling this from inside repaint, second draw and present will be done automatically
             _skipPresent = true;
             if (!UnityIsPaused())
+            {
                 UnityRepaint();
+                // we are not inside repaint so we need to draw second time ourselves
+                if (_viewIsRotating)
+                    UnityRepaint();
+            }
             _skipPresent = false;
         }
     }

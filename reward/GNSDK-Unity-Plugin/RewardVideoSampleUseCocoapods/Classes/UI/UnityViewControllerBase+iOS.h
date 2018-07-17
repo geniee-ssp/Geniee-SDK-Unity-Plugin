@@ -26,8 +26,15 @@
 @end
 
 
+#ifdef __cplusplus
+extern "C" {
+#endif
 // this is helper to add proper rotation handling methods depending on ios version
-extern "C" void AddViewControllerRotationHandling(Class class_, IMP willRotateToInterfaceOrientation, IMP didRotateFromInterfaceOrientation, IMP viewWillTransitionToSize);
-extern "C" void AddViewControllerDefaultRotationHandling(Class class_);
+void AddViewControllerRotationHandling(Class class_, IMP willRotateToInterfaceOrientation, IMP didRotateFromInterfaceOrientation, IMP viewWillTransitionToSize);
+void AddViewControllerDefaultRotationHandling(Class class_);
+
+#ifdef __cplusplus
+}
+#endif
 
 NSUInteger EnabledAutorotationInterfaceOrientations();

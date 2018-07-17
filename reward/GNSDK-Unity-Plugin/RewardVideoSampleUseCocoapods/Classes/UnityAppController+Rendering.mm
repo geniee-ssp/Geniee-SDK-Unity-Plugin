@@ -192,12 +192,6 @@ typedef bool(*CheckSupportedFunc)(int);
 
 static int SelectRenderingAPIImpl()
 {
-#if UNITY_CAN_USE_METAL
-    const bool  canSupportMetal = _ios80orNewer;
-#else
-    const bool  canSupportMetal = false;
-#endif
-
     // Get list of graphics APIs to try from player settings
     const int kMaxAPIs = 3;
     int apis[kMaxAPIs];
@@ -210,11 +204,13 @@ static int SelectRenderingAPIImpl()
         // Metal
         if (api == apiMetal)
         {
-            if (!canSupportMetal)
-                continue;
+#if UNITY_CAN_USE_METAL
             if (!IsMetalSupported(0))
                 continue;
             return api;
+#else
+            continue;
+#endif
         }
         // GLES3
         if (api == apiOpenGLES3)

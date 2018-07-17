@@ -82,9 +82,6 @@ extern bool _unityAppReady;
         UIInterfaceOrientation orientation = ConvertToIosScreenOrientation((ScreenOrientation)UnityRequestedScreenOrientation());
         ret = [self createRootViewControllerForOrientation: orientation];
     }
-
-    if (_curOrientation == UIInterfaceOrientationUnknown)
-        [self updateAppOrientation: ConvertToIosScreenOrientation(UIViewControllerOrientation(ret))];
 #endif
     return ret;
 }
@@ -130,7 +127,7 @@ extern bool _unityAppReady;
     // compositor: any use of -[UIView snapshotViewAfterScreenUpdates] causes black screen being shown
     // temporarily when 4 finger gesture to swipe to another app in the task switcher is being performed slowly
 #if UNITY_SNAPSHOT_VIEW_ON_APPLICATION_PAUSE
-    return _ios80orNewer ? [_rootView snapshotViewAfterScreenUpdates: YES] : nil;
+    return [_rootView snapshotViewAfterScreenUpdates: YES];
 #else
     return nil;
 #endif
@@ -155,8 +152,21 @@ extern bool _unityAppReady;
 
     ShowSplashScreen(_window);
 
+#if UNITY_SUPPORT_ROTATION
+    // to be able to query orientation from view controller we should actually show it.
+    // at this point we can only show splash screen, so update app orientation after we started showing it
+    // NB: _window.rootViewController = splash view controller (not _rootController)
+    [self updateAppOrientation: ConvertToIosScreenOrientation(UIViewControllerOrientation(_window.rootViewController))];
+#endif
+
     NSNumber* style = [[[NSBundle mainBundle] infoDictionary] objectForKey: @"Unity_LoadingActivityIndicatorStyle"];
     ShowActivityIndicator([SplashScreen Instance], style ? [style intValue] : -1);
+
+    NSNumber* vcControlled = [[[NSBundle mainBundle] infoDictionary] objectForKey: @"UIViewControllerBasedStatusBarAppearance"];
+    if (vcControlled && ![vcControlled boolValue])
+        printf_console("\nSetting UIViewControllerBasedStatusBarAppearance to NO is no longer supported.\n"
+            "Apple actively discourages that, and all application-wide methods of changing status bar appearance are deprecated\n\n"
+            );
 }
 
 - (void)showGameUI
@@ -175,6 +185,12 @@ extern bool _unityAppReady;
     [_window addSubview: _rootView];
     _window.rootViewController = _rootController;
     [_window bringSubviewToFront: _rootView];
+
+#if UNITY_SUPPORT_ROTATION
+    // to be able to query orientation from view controller we should actually show it.
+    // at this point we finally started to show game view controller. Just in case update orientation again
+    [self updateAppOrientation: ConvertToIosScreenOrientation(UIViewControllerOrientation(_rootController))];
+#endif
 
     // why we set level ready only now:
     // surface recreate will try to repaint if this var is set (poking unity to do it)
@@ -203,12 +219,17 @@ extern bool _unityAppReady;
 {
     [self willTransitionToViewController: vc fromViewController: _rootController];
 
-    // first: remove view hierarchy, change bounds instead of hiding to avoid black flickering
+    // first: remove view hierarchy, change bounds instead of hiding - fixes case 835745, without black flickering
     _window.bounds = CGRectMake(0, 0, 1, 1);
     _rootController.view = nil; _window.rootViewController = nil;
-    // second: assign new root controller (and view hierarchy with that) restore bounds
+
+    // second: assign new root controller (and view hierarchy with that), restore bounds
     _rootController = _window.rootViewController = vc; _rootController.view = _rootView;
     _window.bounds = [UIScreen mainScreen].bounds;
+    // required for iOS 8, otherwise view bounds will be incorrect
+    _rootView.bounds = _window.bounds;
+    _rootView.center = _window.center;
+
     // third: restore window as key and layout subviews to finalize size changes
     [_window makeKeyAndVisible];
     [_window layoutSubviews];
@@ -291,27 +312,20 @@ extern bool _unityAppReady;
     return _viewControllerForOrientation[orientation];
 }
 
-- (bool)isCurrentInterfaceOrientationEnabled
-{
-    NSUInteger supportedOrientMask = EnabledAutorotationInterfaceOrientations();
-    NSUInteger currOrientMask = (1 << _curOrientation);
-    return (supportedOrientMask & currOrientMask) != 0;
-}
-
 - (void)forceAutorotatingControllerToRefreshEnabledOrientationsIfNeeded
 {
     if (!UnityShouldAutorotate())
         return;
 
-    if (![self isCurrentInterfaceOrientationEnabled])
-    {
-        // if the current orientation is disabled, attemptRotationToDeviceOrientation
-        // does nothing because we're trying to rotate the view controller away from
-        // the current device orientation
-        [self transitionToViewController: [self createSecondaryAutorotatingViewController]];
-    }
-    else
+    // compare unity enabled orientation with current rootViewController orientation
+    NSUInteger rootOrient = 1 << UIViewControllerInterfaceOrientation(self.rootViewController);
+
+    // normally we want to call attemptRotationToDeviceOrientation to tell iOS that we changed orientation constraints
+    // but if the current orientation is disabled we need special processing, as iOS will simply ignore us
+    if (rootOrient & EnabledAutorotationInterfaceOrientations())
         [UIViewController attemptRotationToDeviceOrientation];
+    else
+        [self transitionToViewController: [self createSecondaryAutorotatingViewController]];
 }
 
 - (void)checkOrientationRequest

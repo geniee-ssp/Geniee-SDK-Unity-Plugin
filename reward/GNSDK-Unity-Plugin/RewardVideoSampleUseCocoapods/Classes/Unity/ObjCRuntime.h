@@ -4,22 +4,26 @@
 #include <objc/runtime.h>
 #include <objc/message.h>
 
-#define UNITY_OBJC_FORWARD_TO_SUPER(self_, super_, selector, selectorType, ...) \
-    do                                                                          \
-    {                                                                           \
-        struct objc_super super = { .receiver = self_, .super_class = super_ }; \
-        selectorType msgSendFunc = (selectorType)objc_msgSendSuper;             \
-        msgSendFunc(&super, selector, __VA_ARGS__);                             \
-    }                                                                           \
-    while(0)
+// simulator and device differ in how they want objc_msgSendXXX to be called:
+// device wants objc_msgSendXXX to be casted to proper type (same as selector we want to call)
+// while simulator wants to call them directly
+#if TARGET_IPHONE_SIMULATOR || TARGET_TVOS_SIMULATOR
+    #define UNITY_OBJC_SEND_MSG(selectorType, msgSendFunc) msgSendFunc
+#else
+    #define UNITY_OBJC_SEND_MSG(selectorType, msgSendFunc) ((selectorType)msgSendFunc)
+#endif
 
-#define UNITY_OBJC_CALL_ON_SELF(self_, selector, selectorType, ...) \
-    do                                                              \
-    {                                                               \
-        selectorType msgSendFunc = (selectorType)objc_msgSend;      \
-        msgSendFunc(self_, selector, __VA_ARGS__);                  \
-    }                                                               \
-    while(0)
+
+#define UNITY_OBJC_FORWARD_TO_SUPER(self_, super_, selector, selectorType, ...)                 \
+    do {                                                                                        \
+        struct objc_super super = { .receiver = self_, .super_class = super_ };                 \
+        UNITY_OBJC_SEND_MSG(selectorType, objc_msgSendSuper)(&super, selector, __VA_ARGS__);    \
+    } while(0)
+
+#define UNITY_OBJC_CALL_ON_SELF(self_, selector, selectorType, ...)                     \
+    do {                                                                                \
+        UNITY_OBJC_SEND_MSG(selectorType, objc_msgSend)(self_, selector, __VA_ARGS__);  \
+    } while(0)
 
 
 // method type encoding for methods we override
