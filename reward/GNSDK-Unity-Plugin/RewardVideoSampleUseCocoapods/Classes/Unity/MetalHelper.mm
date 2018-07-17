@@ -70,24 +70,17 @@ extern "C" void CreateSystemRenderingSurfaceMTL(UnityDisplaySurfaceMTL* surface)
     MetalUpdateDisplaySync();
 #endif
 
-    CGFloat backgroundColorValues[] = {0, 0, 0, 1};
-#if PLATFORM_IOS || PLATFORM_OSX
-    CGColorSpaceRef colorSpaceRef = CGColorSpaceCreateWithName(kCGColorSpaceSRGB);
-#else
-    CGColorSpaceRef colorSpaceRef = CGColorSpaceCreateDeviceRGB();
-#endif
-#if (PLATFORM_IOS && UNITY_HAS_IOSSDK_10_0) || (PLATFORM_OSX && __MAC_10_12)
+
+#if PLATFORM_OSX && __MAC_10_12
+    CGColorSpaceRef colorSpaceRef = nil;
     if (surface->wideColor)
         colorSpaceRef = CGColorSpaceCreateWithName(surface->srgb ? kCGColorSpaceExtendedLinearSRGB : kCGColorSpaceExtendedSRGB);
-#endif
+    else
+        colorSpaceRef = CGColorSpaceCreateWithName(kCGColorSpaceSRGB);
 
-    CGColorRef backgroundColorRef = CGColorCreate(colorSpaceRef, backgroundColorValues);
-    surface->layer.backgroundColor = backgroundColorRef; // retained automatically
-#if PLATFORM_OSX && __MAC_10_12
     surface->layer.colorspace = colorSpaceRef;
-#endif
-    CGColorRelease(backgroundColorRef);
     CGColorSpaceRelease(colorSpaceRef);
+#endif
 
     surface->layer.device = surface->device;
     surface->layer.pixelFormat = colorFormat;
@@ -271,7 +264,11 @@ extern "C" void CreateUnityRenderBuffersMTL(UnityDisplaySurfaceMTL* surface)
 
 extern "C" void DestroySystemRenderingSurfaceMTL(UnityDisplaySurfaceMTL* surface)
 {
-    surface->systemColorRB = nil;
+    // before we needed to nil surface->systemColorRB (to release drawable we get from the view)
+    // but after we switched to proxy rt this is no longer needed
+    // even more it is harmful when running rendering on another thread (as is default now)
+    // as on render thread we do StartFrameRenderingMTL/AcquireDrawableMTL/EndFrameRenderingMTL
+    // and DestroySystemRenderingSurfaceMTL comes on main thread so we might end up with race condition for no reason
 }
 
 extern "C" void DestroyUnityRenderBuffersMTL(UnityDisplaySurfaceMTL* surface)
@@ -331,25 +328,16 @@ extern "C" void StartFrameRenderingMTL(UnityDisplaySurfaceMTL* surface)
 #endif
     surface->systemColorRB  = surface->drawableProxyRT[surface->writeCount % kUnityNumOffscreenSurfaces];
 
-    // screen disconnect notification comes asynchronously
-    // even better when preparing render we might still have [UIScreen screens].count == 2, but drawable would be nil already
-    if (surface->systemColorRB)
-    {
-        UnityRenderBufferDesc sys_desc = { surface->systemW, surface->systemH, 1, 1, 1};
-        UnityRenderBufferDesc tgt_desc = { surface->targetW, surface->targetH, 1, (unsigned int)surface->msaaSamples, 1};
+    UnityRenderBufferDesc sys_desc = { surface->systemW, surface->systemH, 1, 1, 1};
+    UnityRenderBufferDesc tgt_desc = { surface->targetW, surface->targetH, 1, (unsigned int)surface->msaaSamples, 1};
 
-        surface->systemColorBuffer = UnityCreateExternalColorSurfaceMTL(surface->systemColorBuffer, surface->systemColorRB, nil, &sys_desc, surface);
-        if (surface->targetColorRT == nil)
-        {
-            if (surface->targetAAColorRT)
-                surface->unityColorBuffer = UnityCreateExternalColorSurfaceMTL(surface->unityColorBuffer, surface->targetAAColorRT, surface->systemColorRB, &tgt_desc, surface);
-            else
-                surface->unityColorBuffer = UnityCreateExternalColorSurfaceMTL(surface->unityColorBuffer, surface->systemColorRB, nil, &tgt_desc, surface);
-        }
-    }
-    else
+    surface->systemColorBuffer = UnityCreateExternalColorSurfaceMTL(surface->systemColorBuffer, surface->systemColorRB, nil, &sys_desc, surface);
+    if (surface->targetColorRT == nil)
     {
-        UnityDisableRenderBuffers(surface->unityColorBuffer, surface->unityDepthBuffer);
+        if (surface->targetAAColorRT)
+            surface->unityColorBuffer = UnityCreateExternalColorSurfaceMTL(surface->unityColorBuffer, surface->targetAAColorRT, surface->systemColorRB, &tgt_desc, surface);
+        else
+            surface->unityColorBuffer = UnityCreateExternalColorSurfaceMTL(surface->unityColorBuffer, surface->systemColorRB, nil, &tgt_desc, surface);
     }
 }
 

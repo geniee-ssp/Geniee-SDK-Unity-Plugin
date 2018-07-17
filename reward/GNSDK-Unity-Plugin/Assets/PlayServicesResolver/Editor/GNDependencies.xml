@@ -144,7 +144,7 @@
 
 
 	<!-- GNSRewardAdapter Maio -->
-<!--    <androidPackage spec="jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-Maio:2.1.0">
+    <androidPackage spec="jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-Maio:2.1.0">
     <androidSdkPackageIds>
         <androidSdkPackageId>extra-geniee-repository</androidSdkPackageId>
       </androidSdkPackageIds>
@@ -152,30 +152,30 @@
         <repository>https://raw.github.com/geniee-ssp/Geniee-Android-SDK/master/repository</repository>
         <repository>https://imobile-maio.github.io/maven/</repository>
       </repositories>
-    </androidPackage>-->
+    </androidPackage>
 
 	<!-- GNSRewardAdapter AppLovin -->
-<!--    <androidPackage spec="jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-AppLovin:2.1.0">
+    <androidPackage spec="jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-AppLovin:2.1.0">
     <androidSdkPackageIds>
         <androidSdkPackageId>extra-geniee-repository</androidSdkPackageId>
       </androidSdkPackageIds>
       <repositories>
         <repository>https://raw.github.com/geniee-ssp/Geniee-Android-SDK/master/repository</repository>
       </repositories>
-    </androidPackage>-->
+    </androidPackage>
 
 	<!-- GNSRewardAdapter UnityAds -->
-<!--    <androidPackage spec="jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-UnityAds:2.1.0">
+    <androidPackage spec="jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-UnityAds:2.1.0">
     <androidSdkPackageIds>
         <androidSdkPackageId>extra-geniee-repository</androidSdkPackageId>
       </androidSdkPackageIds>
       <repositories>
         <repository>https://raw.github.com/geniee-ssp/Geniee-Android-SDK/master/repository</repository>
       </repositories>
-    </androidPackage>-->
+    </androidPackage>
 
 	<!-- GNSRewardAdapter AdColony -->
-<!--    <androidPackage spec="jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-AdColony:2.1.0">
+    <androidPackage spec="jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-AdColony:2.1.0">
     <androidSdkPackageIds>
         <androidSdkPackageId>extra-geniee-repository</androidSdkPackageId>
       </androidSdkPackageIds>
@@ -183,30 +183,30 @@
         <repository>https://raw.github.com/geniee-ssp/Geniee-Android-SDK/master/repository</repository>
         <repository>https://adcolony.bintray.com/AdColony/</repository>
       </repositories>
-    </androidPackage>-->
+    </androidPackage>
 
 	<!-- GNSRewardAdapter CAReward -->
-<!--    <androidPackage spec="jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-CAReward:2.1.0">
+    <androidPackage spec="jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-CAReward:2.1.0">
     <androidSdkPackageIds>
         <androidSdkPackageId>extra-geniee-repository</androidSdkPackageId>
       </androidSdkPackageIds>
       <repositories>
         <repository>https://raw.github.com/geniee-ssp/Geniee-Android-SDK/master/repository</repository>
       </repositories>
-    </androidPackage>-->
+    </androidPackage>
 
 	<!-- GNSRewardAdapter Tapjoy -->
-<!--    <androidPackage spec="jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-Tapjoy:2.1.0">
+    <androidPackage spec="jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-Tapjoy:2.1.0">
     <androidSdkPackageIds>
         <androidSdkPackageId>extra-geniee-repository</androidSdkPackageId>
       </androidSdkPackageIds>
       <repositories>
         <repository>https://raw.github.com/geniee-ssp/Geniee-Android-SDK/master/repository</repository>
       </repositories>
-    </androidPackage>-->
+    </androidPackage>
 
 	<!-- GNSRewardAdapter Vungle -->
-<!--    <androidPackage spec="jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-Vungle:2.1.0">
+    <androidPackage spec="jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-Vungle:2.1.0">
     <androidSdkPackageIds>
         <androidSdkPackageId>extra-geniee-repository</androidSdkPackageId>
       </androidSdkPackageIds>
@@ -214,10 +214,10 @@
         <repository>https://raw.github.com/geniee-ssp/Geniee-Android-SDK/master/repository</repository>
         <repository>https://jitpack.io/</repository>
       </repositories>
-    </androidPackage>-->
+    </androidPackage>
      
 	<!-- GNSRewardAdapter Nend -->
-<!--    <androidPackage spec="jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-Nend:2.1.0">
+    <androidPackage spec="jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-Nend:2.1.0">
     <androidSdkPackageIds>
         <androidSdkPackageId>extra-geniee-repository</androidSdkPackageId>
       </androidSdkPackageIds>
@@ -225,17 +225,17 @@
         <repository>https://raw.github.com/geniee-ssp/Geniee-Android-SDK/master/repository</repository>
         <repository>http://fan-adn.github.io/nendSDK-Android-lib/library/</repository>
       </repositories>
-    </androidPackage>-->
+    </androidPackage>
 
 	<!-- GNSRewardAdapter Amoad -->
-<!--    <androidPackage spec="jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-Amoad:2.1.0">
+    <androidPackage spec="jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-Amoad:2.1.0">
     <androidSdkPackageIds>
         <androidSdkPackageId>extra-geniee-repository</androidSdkPackageId>
       </androidSdkPackageIds>
       <repositories>
         <repository>https://raw.github.com/geniee-ssp/Geniee-Android-SDK/master/repository</repository>
       </repositories>
-    </androidPackage>-->
+    </androidPackage>
 
   </androidPackages>
 
@@ -243,8 +243,6 @@
  
   <iosPods>
  
- 
-
     <!-- iosPod supports the following attributes:
          * "name" (required)
            Name of the Cocoapod.
@@ -268,7 +266,6 @@
       </sources>
     </iosPod>
 
-    <!--
     <iosPod name="AdColony" version="~> 3.3.4" />
 
     <iosPod name="AppLovinSDK" version="~> 5.0.1" />
@@ -283,8 +280,7 @@
 
     <iosPod name="VungleSDK-iOS" version="~> 6.2.0" />
 
-    <iosPod name="Geniee-iOS-SDK" version="~> 3.1.0" />
-    -->
+    <iosPod name="Geniee-iOS-SDK" />
 
   </iosPods>
 </dependencies>

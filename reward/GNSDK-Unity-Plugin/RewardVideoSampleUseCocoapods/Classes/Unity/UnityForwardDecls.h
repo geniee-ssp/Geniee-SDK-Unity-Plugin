@@ -134,10 +134,10 @@ DeviceGeneration;
 
 
 // be aware that this enum is shared with unity implementation so you should absolutely not change it
-typedef enum
-    ScreenOrientation
+typedef enum ScreenOrientation
 {
     orientationUnknown,
+
     portrait,
     portraitUpsideDown,
     landscapeLeft,
@@ -149,8 +149,7 @@ ScreenOrientation;
 
 
 // be aware that this enum is shared with unity implementation so you should absolutely not change it
-typedef enum
-    AppInBackgroundBehavior
+typedef enum AppInBackgroundBehavior
 {
     appbgCustom     = -1,
     appbgSuspend    = 0,
@@ -163,8 +162,7 @@ AppInBackgroundBehavior;
 // N.B. touch.position will always be adjusted to current resolution
 //      i.e. if you touch right border of view, touch.position.x will be Screen.width, not view.width
 //      to get coords in view space (os-coords), use touch.rawPosition
-typedef enum
-    ViewTouchProcessing
+typedef enum ViewTouchProcessing
 {
     // the touches originated from view will be ignored by unity
     touchesIgnored = 0,
@@ -180,8 +178,7 @@ typedef enum
 ViewTouchProcessing;
 
 // be aware that this enum is shared with unity implementation so you should absolutely not change it
-typedef enum
-    KeyboardStatus
+typedef enum KeyboardStatus
 {
     Visible     = 0,
     Done        = 1,

@@ -6,6 +6,7 @@
 # include <malloc.h>
 #endif
 
+
 #include <cstring>
 #include <string.h>
 #include <stdio.h>
@@ -34,19 +35,19 @@ extern const Il2CppMethodPointer g_UnresolvedVirtualMethodPointers[];
 extern Il2CppInteropData g_Il2CppInteropData[];
 extern const Il2CppCodeRegistration g_CodeRegistration = 
 {
-	10395,
+	10557,
 	g_MethodPointers,
 	5,
 	g_ReversePInvokeWrapperPointers,
-	4339,
+	4242,
 	g_Il2CppGenericMethodPointers,
-	1559,
+	1570,
 	g_Il2CppInvokerPointers,
-	2451,
+	2773,
 	g_AttributeGenerators,
-	243,
+	272,
 	g_UnresolvedVirtualMethodPointers,
-	103,
+	112,
 	g_Il2CppInteropData,
 };
 extern const Il2CppMetadataRegistration g_MetadataRegistration;
@@ -57,6 +58,13 @@ static const Il2CppCodeGenOptions s_Il2CppCodeGenOptions =
 void s_Il2CppCodegenRegistration()
 {
 	il2cpp_codegen_register (&g_CodeRegistration, &g_MetadataRegistration, &s_Il2CppCodeGenOptions);
+	#if IL2CPP_MONO_DEBUGGER
+	extern void initializeSequencePointMap();
+	extern void initializeExecutionInfoMap();
+	extern void initializeTypeSourceFileMap();
+	extern void initializeHeaderInfoMap();
+	il2cpp_codegen_register_debugger_callbacks (initializeSequencePointMap, initializeExecutionInfoMap, initializeTypeSourceFileMap, initializeHeaderInfoMap);
+	#endif
 }
 #if RUNTIME_IL2CPP
 static il2cpp::utils::RegisterRuntimeInitializeAndCleanup s_Il2CppCodegenRegistrationVariable (&s_Il2CppCodegenRegistration, NULL);
