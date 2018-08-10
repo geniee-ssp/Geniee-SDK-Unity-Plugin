@@ -20,23 +20,22 @@
 		134643C1A54E7F3B1F8F5AE4 /* Bulk_UnityEngine.CoreModule_1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 61CB47578AD25AF8AF8DEA04 /* Bulk_UnityEngine.CoreModule_1.cpp */; };
 		15434B6FB37BDA553B3A8346 /* Bulk_UnityEngine.PhysicsModule_0.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B938469EA8E2FA68508A5F79 /* Bulk_UnityEngine.PhysicsModule_0.cpp */; };
 		1859EA9B19214E7B0022C3D3 /* MetalHelper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1859EA9A19214E7B0022C3D3 /* MetalHelper.mm */; };
-		1970742B20FDBD150070D3AA /* GNSAdapterUnityAdsRewardVideoAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 1970741120FDBD140070D3AA /* GNSAdapterUnityAdsRewardVideoAd.m */; };
-		1970742C20FDBD150070D3AA /* GNSAdapterVungleRewardVideoAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 1970741520FDBD140070D3AA /* GNSAdapterVungleRewardVideoAd.m */; };
-		1970742D20FDBD150070D3AA /* GNSAdapterAmoadRewardVideoAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 1970741720FDBD140070D3AA /* GNSAdapterAmoadRewardVideoAd.m */; };
-		1970742E20FDBD150070D3AA /* GNSAdapterTapjoyRewardVideoAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 1970741A20FDBD140070D3AA /* GNSAdapterTapjoyRewardVideoAd.m */; };
-		1970742F20FDBD150070D3AA /* GNSAdapterAppLovinRewardVideoAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 1970741D20FDBD140070D3AA /* GNSAdapterAppLovinRewardVideoAd.m */; };
-		1970743020FDBD150070D3AA /* GNSAdapterAdColonyRewardVideoAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 1970742020FDBD140070D3AA /* GNSAdapterAdColonyRewardVideoAd.m */; };
-		1970743120FDBD150070D3AA /* GNSAdapterMaioRewardVideoAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 1970742420FDBD150070D3AA /* GNSAdapterMaioRewardVideoAd.m */; };
-		1970743220FDBD150070D3AA /* GNSAdapterNendRewardVideoAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 1970742720FDBD150070D3AA /* GNSAdapterNendRewardVideoAd.m */; };
-		1970743320FDBD150070D3AA /* GNSAdapterCARewardRewardVideoAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 1970742920FDBD150070D3AA /* GNSAdapterCARewardRewardVideoAd.m */; };
 		19CE41629DF2525435FE6762 /* Il2CppMetadataUsage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A2EF425899CFED69F7D55E6B /* Il2CppMetadataUsage.cpp */; };
 		1C8843B0BC83887F1C8500E5 /* GNSUInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BB4ECFBE103DC62495B163 /* GNSUInterface.m */; };
+		1D1BB776C9FA387EDC9DB4F9 /* libPods-Unity-iPhone.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 249E8DDDDB3B081D8A414B2B /* libPods-Unity-iPhone.a */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		22884F4BB55477CB7EF96212 /* Il2CppReversePInvokeWrapperTable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5CE14AD595FDEACEC4589BEA /* Il2CppReversePInvokeWrapperTable.cpp */; };
 		23B64F6F8AADADBA15951888 /* Bulk_UnityEngine.UI_2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECA149CC9957B275321D57EF /* Bulk_UnityEngine.UI_2.cpp */; };
 		287C446CB315AA40E177B142 /* Bulk_mscorlib_5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2FDE41568B4471C51179E560 /* Bulk_mscorlib_5.cpp */; };
 		2B504F748CEA6C67FFCB9837 /* Il2CppCompilerCalculateTypeValues_4Table.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64C34CB3853C8A0CCB5A82F4 /* Il2CppCompilerCalculateTypeValues_4Table.cpp */; };
 		2DDE430DA4E5F15F0FBC76DC /* Il2CppGenericInstDefinitions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D43743C1AEFFDFF345B7AEBF /* Il2CppGenericInstDefinitions.cpp */; };
+		2F907254211984AB00464BE2 /* GNSAdapterAppLovinRewardVideoAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F907240211984AB00464BE2 /* GNSAdapterAppLovinRewardVideoAd.m */; };
+		2F907255211984AB00464BE2 /* GNSAdapterMaioRewardVideoAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F907244211984AB00464BE2 /* GNSAdapterMaioRewardVideoAd.m */; };
+		2F907256211984AB00464BE2 /* GNSAdapterAdColonyRewardVideoAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F907246211984AB00464BE2 /* GNSAdapterAdColonyRewardVideoAd.m */; };
+		2F907257211984AB00464BE2 /* GNSAdapterNendRewardVideoAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F90724A211984AB00464BE2 /* GNSAdapterNendRewardVideoAd.m */; };
+		2F907258211984AB00464BE2 /* GNSAdapterUnityAdsRewardVideoAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F90724C211984AB00464BE2 /* GNSAdapterUnityAdsRewardVideoAd.m */; };
+		2F907259211984AB00464BE2 /* GNSAdapterVungleRewardVideoAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F907250211984AB00464BE2 /* GNSAdapterVungleRewardVideoAd.m */; };
+		2F90725A211984AB00464BE2 /* GNSAdapterTapjoyRewardVideoAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F907252211984AB00464BE2 /* GNSAdapterTapjoyRewardVideoAd.m */; };
 		3583446D83E869D220CA436F /* Bulk_mscorlib_7.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5B04B9F9C425D7A4557AA54 /* Bulk_mscorlib_7.cpp */; };
 		37964DB1A7BB35BE8EF30AEC /* Bulk_mscorlib_0.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5EC64963A54834D7B913C9CA /* Bulk_mscorlib_0.cpp */; };
 		380E436993A685C04FB78837 /* Il2CppCompilerCalculateTypeValues_9Table.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 73AB4A779A3FA0F3CB50D6A1 /* Il2CppCompilerCalculateTypeValues_9Table.cpp */; };
@@ -88,7 +87,6 @@
 		83B256E20E62FEA000468741 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83B256E10E62FEA000468741 /* OpenGLES.framework */; };
 		83B2570B0E62FF8A00468741 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83B2570A0E62FF8A00468741 /* QuartzCore.framework */; };
 		83B2574C0E63022200468741 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83B2574B0E63022200468741 /* OpenAL.framework */; };
-		83B2574F0E63025400468741 /* libiconv.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 83B2574E0E63025400468741 /* libiconv.2.dylib */; };
 		848031E11C5160D700FCEAB7 /* UnityReplayKit_Scripting.mm in Sources */ = {isa = PBXBuildFile; fileRef = 848031E01C5160D700FCEAB7 /* UnityReplayKit_Scripting.mm */; };
 		84DC28F61C5137FE00BC67D7 /* UnityReplayKit.mm in Sources */ = {isa = PBXBuildFile; fileRef = 84DC28F51C5137FE00BC67D7 /* UnityReplayKit.mm */; };
 		883D4F64ACC511FB04531C77 /* Il2CppCompilerCalculateTypeValues_15Table.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AE3641C297E05FAE9FFF9F3F /* Il2CppCompilerCalculateTypeValues_15Table.cpp */; };
@@ -201,6 +199,7 @@
 		02874748B5406EC6C14BE941 /* Bulk_Mono.Security_1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Bulk_Mono.Security_1.cpp; path = Classes/Native/Bulk_Mono.Security_1.cpp; sourceTree = SOURCE_ROOT; };
 		031B4665B7DA108EE2511699 /* Bulk_UnityEngine.SharedInternalsModule_0.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Bulk_UnityEngine.SharedInternalsModule_0.cpp; path = Classes/Native/Bulk_UnityEngine.SharedInternalsModule_0.cpp; sourceTree = SOURCE_ROOT; };
 		03F528621B447098000F4FB8 /* Il2CppOptions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Il2CppOptions.cpp; sourceTree = "<group>"; };
+		0521980BC430A9808A8EB3B9 /* Pods-Unity-iPhone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Unity-iPhone.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Unity-iPhone/Pods-Unity-iPhone.debug.xcconfig"; sourceTree = "<group>"; };
 		05ED4C9A9C1EB121C6F1E925 /* GNSURewardVideoAd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GNSURewardVideoAd.h; path = Libraries/Plugins/iOS/GNSURewardVideoAd.h; sourceTree = SOURCE_ROOT; };
 		080A49A99E4573A30C3C3889 /* Bulk_UnityEngine.CoreModule_0.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Bulk_UnityEngine.CoreModule_0.cpp; path = Classes/Native/Bulk_UnityEngine.CoreModule_0.cpp; sourceTree = SOURCE_ROOT; };
 		0FD04AF6A0BB1844714E0DD0 /* Il2CppCompilerCalculateTypeValues_14Table.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Il2CppCompilerCalculateTypeValues_14Table.cpp; path = Classes/Native/Il2CppCompilerCalculateTypeValues_14Table.cpp; sourceTree = SOURCE_ROOT; };
@@ -210,24 +209,6 @@
 		165B4D5187E834DC4ADCE00C /* Il2CppCompilerCalculateTypeValues_5Table.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Il2CppCompilerCalculateTypeValues_5Table.cpp; path = Classes/Native/Il2CppCompilerCalculateTypeValues_5Table.cpp; sourceTree = SOURCE_ROOT; };
 		16774659AFDFE3774E7D5AE9 /* Bulk_UnityEngine.AnimationModule_0.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Bulk_UnityEngine.AnimationModule_0.cpp; path = Classes/Native/Bulk_UnityEngine.AnimationModule_0.cpp; sourceTree = SOURCE_ROOT; };
 		1859EA9A19214E7B0022C3D3 /* MetalHelper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MetalHelper.mm; sourceTree = "<group>"; };
-		1970741120FDBD140070D3AA /* GNSAdapterUnityAdsRewardVideoAd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GNSAdapterUnityAdsRewardVideoAd.m; sourceTree = "<group>"; };
-		1970741220FDBD140070D3AA /* GNSAdapterUnityAdsRewardVideoAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GNSAdapterUnityAdsRewardVideoAd.h; sourceTree = "<group>"; };
-		1970741420FDBD140070D3AA /* GNSAdapterVungleRewardVideoAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GNSAdapterVungleRewardVideoAd.h; sourceTree = "<group>"; };
-		1970741520FDBD140070D3AA /* GNSAdapterVungleRewardVideoAd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GNSAdapterVungleRewardVideoAd.m; sourceTree = "<group>"; };
-		1970741720FDBD140070D3AA /* GNSAdapterAmoadRewardVideoAd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GNSAdapterAmoadRewardVideoAd.m; sourceTree = "<group>"; };
-		1970741820FDBD140070D3AA /* GNSAdapterAmoadRewardVideoAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GNSAdapterAmoadRewardVideoAd.h; sourceTree = "<group>"; };
-		1970741A20FDBD140070D3AA /* GNSAdapterTapjoyRewardVideoAd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GNSAdapterTapjoyRewardVideoAd.m; sourceTree = "<group>"; };
-		1970741B20FDBD140070D3AA /* GNSAdapterTapjoyRewardVideoAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GNSAdapterTapjoyRewardVideoAd.h; sourceTree = "<group>"; };
-		1970741D20FDBD140070D3AA /* GNSAdapterAppLovinRewardVideoAd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GNSAdapterAppLovinRewardVideoAd.m; sourceTree = "<group>"; };
-		1970741E20FDBD140070D3AA /* GNSAdapterAppLovinRewardVideoAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GNSAdapterAppLovinRewardVideoAd.h; sourceTree = "<group>"; };
-		1970742020FDBD140070D3AA /* GNSAdapterAdColonyRewardVideoAd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GNSAdapterAdColonyRewardVideoAd.m; sourceTree = "<group>"; };
-		1970742120FDBD140070D3AA /* GNSAdapterAdColonyRewardVideoAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GNSAdapterAdColonyRewardVideoAd.h; sourceTree = "<group>"; };
-		1970742320FDBD140070D3AA /* GNSAdapterMaioRewardVideoAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GNSAdapterMaioRewardVideoAd.h; sourceTree = "<group>"; };
-		1970742420FDBD150070D3AA /* GNSAdapterMaioRewardVideoAd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GNSAdapterMaioRewardVideoAd.m; sourceTree = "<group>"; };
-		1970742620FDBD150070D3AA /* GNSAdapterNendRewardVideoAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GNSAdapterNendRewardVideoAd.h; sourceTree = "<group>"; };
-		1970742720FDBD150070D3AA /* GNSAdapterNendRewardVideoAd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GNSAdapterNendRewardVideoAd.m; sourceTree = "<group>"; };
-		1970742920FDBD150070D3AA /* GNSAdapterCARewardRewardVideoAd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GNSAdapterCARewardRewardVideoAd.m; sourceTree = "<group>"; };
-		1970742A20FDBD150070D3AA /* GNSAdapterCARewardRewardVideoAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GNSAdapterCARewardRewardVideoAd.h; sourceTree = "<group>"; };
 		1A04433095059C2919270560 /* Il2CppCompilerCalculateTypeValues_18Table.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Il2CppCompilerCalculateTypeValues_18Table.cpp; path = Classes/Native/Il2CppCompilerCalculateTypeValues_18Table.cpp; sourceTree = SOURCE_ROOT; };
 		1CAC4F9CAD59EAC57AF1BCA7 /* Il2CppMethodPointerTable.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Il2CppMethodPointerTable.cpp; path = Classes/Native/Il2CppMethodPointerTable.cpp; sourceTree = SOURCE_ROOT; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -236,10 +217,25 @@
 		1E344EAEBB6F61A167294B85 /* Bulk_mscorlib_2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Bulk_mscorlib_2.cpp; path = Classes/Native/Bulk_mscorlib_2.cpp; sourceTree = SOURCE_ROOT; };
 		20CF4527B18DE576337473B9 /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
 		21154506ABF475B527820442 /* Il2CppCompilerCalculateTypeValues_8Table.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Il2CppCompilerCalculateTypeValues_8Table.cpp; path = Classes/Native/Il2CppCompilerCalculateTypeValues_8Table.cpp; sourceTree = SOURCE_ROOT; };
+		249E8DDDDB3B081D8A414B2B /* libPods-Unity-iPhone.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Unity-iPhone.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28414B7889DFDD4403B0F5D8 /* Bulk_Mono.Security_0.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Bulk_Mono.Security_0.cpp; path = Classes/Native/Bulk_Mono.Security_0.cpp; sourceTree = SOURCE_ROOT; };
 		29294A57B59BBC12B3BFB462 /* Bulk_mscorlib_10.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Bulk_mscorlib_10.cpp; path = Classes/Native/Bulk_mscorlib_10.cpp; sourceTree = SOURCE_ROOT; };
 		2A104C7787D2C8635DC75031 /* Bulk_UnityEngine.UIModule_0.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Bulk_UnityEngine.UIModule_0.cpp; path = Classes/Native/Bulk_UnityEngine.UIModule_0.cpp; sourceTree = SOURCE_ROOT; };
 		2E6E47CCA5A08C6E61B15479 /* Il2CppCompilerCalculateTypeValues_11Table.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Il2CppCompilerCalculateTypeValues_11Table.cpp; path = Classes/Native/Il2CppCompilerCalculateTypeValues_11Table.cpp; sourceTree = SOURCE_ROOT; };
+		2F907240211984AB00464BE2 /* GNSAdapterAppLovinRewardVideoAd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GNSAdapterAppLovinRewardVideoAd.m; sourceTree = "<group>"; };
+		2F907241211984AB00464BE2 /* GNSAdapterAppLovinRewardVideoAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GNSAdapterAppLovinRewardVideoAd.h; sourceTree = "<group>"; };
+		2F907243211984AB00464BE2 /* GNSAdapterMaioRewardVideoAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GNSAdapterMaioRewardVideoAd.h; sourceTree = "<group>"; };
+		2F907244211984AB00464BE2 /* GNSAdapterMaioRewardVideoAd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GNSAdapterMaioRewardVideoAd.m; sourceTree = "<group>"; };
+		2F907246211984AB00464BE2 /* GNSAdapterAdColonyRewardVideoAd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GNSAdapterAdColonyRewardVideoAd.m; sourceTree = "<group>"; };
+		2F907247211984AB00464BE2 /* GNSAdapterAdColonyRewardVideoAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GNSAdapterAdColonyRewardVideoAd.h; sourceTree = "<group>"; };
+		2F907249211984AB00464BE2 /* GNSAdapterNendRewardVideoAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GNSAdapterNendRewardVideoAd.h; sourceTree = "<group>"; };
+		2F90724A211984AB00464BE2 /* GNSAdapterNendRewardVideoAd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GNSAdapterNendRewardVideoAd.m; sourceTree = "<group>"; };
+		2F90724C211984AB00464BE2 /* GNSAdapterUnityAdsRewardVideoAd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GNSAdapterUnityAdsRewardVideoAd.m; sourceTree = "<group>"; };
+		2F90724D211984AB00464BE2 /* GNSAdapterUnityAdsRewardVideoAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GNSAdapterUnityAdsRewardVideoAd.h; sourceTree = "<group>"; };
+		2F90724F211984AB00464BE2 /* GNSAdapterVungleRewardVideoAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GNSAdapterVungleRewardVideoAd.h; sourceTree = "<group>"; };
+		2F907250211984AB00464BE2 /* GNSAdapterVungleRewardVideoAd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GNSAdapterVungleRewardVideoAd.m; sourceTree = "<group>"; };
+		2F907252211984AB00464BE2 /* GNSAdapterTapjoyRewardVideoAd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GNSAdapterTapjoyRewardVideoAd.m; sourceTree = "<group>"; };
+		2F907253211984AB00464BE2 /* GNSAdapterTapjoyRewardVideoAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GNSAdapterTapjoyRewardVideoAd.h; sourceTree = "<group>"; };
 		2FDE41568B4471C51179E560 /* Bulk_mscorlib_5.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Bulk_mscorlib_5.cpp; path = Classes/Native/Bulk_mscorlib_5.cpp; sourceTree = SOURCE_ROOT; };
 		36A948F08F52730E3B5DB96D /* Bulk_System_0.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Bulk_System_0.cpp; path = Classes/Native/Bulk_System_0.cpp; sourceTree = SOURCE_ROOT; };
 		370344EBBC4E2B966B279F70 /* Bulk_System_1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Bulk_System_1.cpp; path = Classes/Native/Bulk_System_1.cpp; sourceTree = SOURCE_ROOT; };
@@ -293,7 +289,6 @@
 		83B256E10E62FEA000468741 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		83B2570A0E62FF8A00468741 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		83B2574B0E63022200468741 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
-		83B2574E0E63025400468741 /* libiconv.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.2.dylib; path = usr/lib/libiconv.2.dylib; sourceTree = SDKROOT; };
 		848031E01C5160D700FCEAB7 /* UnityReplayKit_Scripting.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = UnityReplayKit_Scripting.mm; sourceTree = "<group>"; };
 		84DC28F51C5137FE00BC67D7 /* UnityReplayKit.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = UnityReplayKit.mm; sourceTree = "<group>"; };
 		84DC28F71C51383500BC67D7 /* UnityReplayKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnityReplayKit.h; sourceTree = "<group>"; };
@@ -376,6 +371,7 @@
 		999475381A80DBC300178130 /* UnityAdsConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UnityAdsConfig.h; path = UnityAds/UnityAdsConfig.h; sourceTree = "<group>"; };
 		9A6145B79A1B122BD65E48C9 /* Bulk_System.Core_0.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Bulk_System.Core_0.cpp; path = Classes/Native/Bulk_System.Core_0.cpp; sourceTree = SOURCE_ROOT; };
 		A2EF425899CFED69F7D55E6B /* Il2CppMetadataUsage.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Il2CppMetadataUsage.cpp; path = Classes/Native/Il2CppMetadataUsage.cpp; sourceTree = SOURCE_ROOT; };
+		A5D5B6D9F57364CEE820DB8A /* Pods-Unity-iPhone.releaseforprofiling.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Unity-iPhone.releaseforprofiling.xcconfig"; path = "Pods/Target Support Files/Pods-Unity-iPhone/Pods-Unity-iPhone.releaseforprofiling.xcconfig"; sourceTree = "<group>"; };
 		A7B2442FBBFFE3585E01A690 /* Bulk_UnityEngine.TextRenderingModule_0.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Bulk_UnityEngine.TextRenderingModule_0.cpp; path = Classes/Native/Bulk_UnityEngine.TextRenderingModule_0.cpp; sourceTree = SOURCE_ROOT; };
 		AA31BF961B55660D0013FB1B /* Data */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Data; sourceTree = "<group>"; };
 		AA5D99861AFAD3C800B27605 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
@@ -403,12 +399,14 @@
 		D8A1C72A0E8063A1000160D3 /* libiPhone-lib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libiPhone-lib.a"; path = "Libraries/libiPhone-lib.a"; sourceTree = SOURCE_ROOT; };
 		D983483FB5304111B22F8F40 /* UnityClassRegistration.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = UnityClassRegistration.cpp; path = Classes/Native/UnityClassRegistration.cpp; sourceTree = SOURCE_ROOT; };
 		DC5B462FA7BECF6E89CAFE6A /* Bulk_UnityEngine.Physics2DModule_0.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Bulk_UnityEngine.Physics2DModule_0.cpp; path = Classes/Native/Bulk_UnityEngine.Physics2DModule_0.cpp; sourceTree = SOURCE_ROOT; };
+		E0842993BFAE3A2CE185DB1E /* Pods-Unity-iPhone.releaseforrunning.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Unity-iPhone.releaseforrunning.xcconfig"; path = "Pods/Target Support Files/Pods-Unity-iPhone/Pods-Unity-iPhone.releaseforrunning.xcconfig"; sourceTree = "<group>"; };
 		E16C44688CF88E43551C7FB0 /* Il2CppCompilerCalculateTypeValues_2Table.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Il2CppCompilerCalculateTypeValues_2Table.cpp; path = Classes/Native/Il2CppCompilerCalculateTypeValues_2Table.cpp; sourceTree = SOURCE_ROOT; };
 		E5C64E31AAD4AF83D85EDE75 /* Bulk_Assembly-CSharp_0.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "Bulk_Assembly-CSharp_0.cpp"; path = "Classes/Native/Bulk_Assembly-CSharp_0.cpp"; sourceTree = SOURCE_ROOT; };
 		E9CC49789CAFAECD83316379 /* Bulk_UnityEngine.UI_1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Bulk_UnityEngine.UI_1.cpp; path = Classes/Native/Bulk_UnityEngine.UI_1.cpp; sourceTree = SOURCE_ROOT; };
 		E9CD4048BC70F513B1762056 /* Il2CppMetadataRegistration.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Il2CppMetadataRegistration.cpp; path = Classes/Native/Il2CppMetadataRegistration.cpp; sourceTree = SOURCE_ROOT; };
 		EBFF46C1A430D1E45C44FFC4 /* GNSUObjectCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = GNSUObjectCache.m; path = Libraries/Plugins/iOS/GNSUObjectCache.m; sourceTree = SOURCE_ROOT; };
 		ECA149CC9957B275321D57EF /* Bulk_UnityEngine.UI_2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Bulk_UnityEngine.UI_2.cpp; path = Classes/Native/Bulk_UnityEngine.UI_2.cpp; sourceTree = SOURCE_ROOT; };
+		ECB49298DB887957659E6D7F /* Pods-Unity-iPhone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Unity-iPhone.release.xcconfig"; path = "Pods/Target Support Files/Pods-Unity-iPhone/Pods-Unity-iPhone.release.xcconfig"; sourceTree = "<group>"; };
 		ED394E1CA70D4CA9294EC0CD /* Il2CppCompilerCalculateTypeValues_1Table.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Il2CppCompilerCalculateTypeValues_1Table.cpp; path = Classes/Native/Il2CppCompilerCalculateTypeValues_1Table.cpp; sourceTree = SOURCE_ROOT; };
 		EEF648D9B9FA758B90BE2E3B /* Il2CppGenericMethodTable.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Il2CppGenericMethodTable.cpp; path = Classes/Native/Il2CppGenericMethodTable.cpp; sourceTree = SOURCE_ROOT; };
 		F04F4E549F589BCC8CD60E4C /* IUnityInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IUnityInterface.h; path = Classes/Unity/IUnityInterface.h; sourceTree = SOURCE_ROOT; };
@@ -449,9 +447,9 @@
 				83B2570B0E62FF8A00468741 /* QuartzCore.framework in Frameworks */,
 				56BCBA390FCF049A0030C3B2 /* SystemConfiguration.framework in Frameworks */,
 				830B5C110E5ED4C100C7819F /* UIKit.framework in Frameworks */,
-				83B2574F0E63025400468741 /* libiconv.2.dylib in Frameworks */,
 				6A234D208C435613F296EB69 /* libil2cpp.a in Frameworks */,
 				DAD54E9FAC84847D373E0C03 /* Metal.framework in Frameworks */,
+				1D1BB776C9FA387EDC9DB4F9 /* libPods-Unity-iPhone.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,98 +468,15 @@
 		1970740F20FDBD140070D3AA /* rewardMediation */ = {
 			isa = PBXGroup;
 			children = (
-				1970741020FDBD140070D3AA /* UnityAds */,
-				1970741320FDBD140070D3AA /* Vungle */,
-				1970741620FDBD140070D3AA /* Amoad */,
-				1970741920FDBD140070D3AA /* Tapjoy */,
-				1970741C20FDBD140070D3AA /* AppLovin */,
-				1970741F20FDBD140070D3AA /* AdColony */,
-				1970742220FDBD140070D3AA /* Maio */,
-				1970742520FDBD150070D3AA /* Nend */,
-				1970742820FDBD150070D3AA /* CAReward */,
+				2F907245211984AB00464BE2 /* AdColony */,
+				2F90723F211984AB00464BE2 /* AppLovin */,
+				2F907242211984AB00464BE2 /* Maio */,
+				2F907248211984AB00464BE2 /* Nend */,
+				2F907251211984AB00464BE2 /* Tapjoy */,
+				2F90724B211984AB00464BE2 /* UnityAds */,
+				2F90724E211984AB00464BE2 /* Vungle */,
 			);
 			path = rewardMediation;
-			sourceTree = "<group>";
-		};
-		1970741020FDBD140070D3AA /* UnityAds */ = {
-			isa = PBXGroup;
-			children = (
-				1970741120FDBD140070D3AA /* GNSAdapterUnityAdsRewardVideoAd.m */,
-				1970741220FDBD140070D3AA /* GNSAdapterUnityAdsRewardVideoAd.h */,
-			);
-			path = UnityAds;
-			sourceTree = "<group>";
-		};
-		1970741320FDBD140070D3AA /* Vungle */ = {
-			isa = PBXGroup;
-			children = (
-				1970741420FDBD140070D3AA /* GNSAdapterVungleRewardVideoAd.h */,
-				1970741520FDBD140070D3AA /* GNSAdapterVungleRewardVideoAd.m */,
-			);
-			path = Vungle;
-			sourceTree = "<group>";
-		};
-		1970741620FDBD140070D3AA /* Amoad */ = {
-			isa = PBXGroup;
-			children = (
-				1970741720FDBD140070D3AA /* GNSAdapterAmoadRewardVideoAd.m */,
-				1970741820FDBD140070D3AA /* GNSAdapterAmoadRewardVideoAd.h */,
-			);
-			path = Amoad;
-			sourceTree = "<group>";
-		};
-		1970741920FDBD140070D3AA /* Tapjoy */ = {
-			isa = PBXGroup;
-			children = (
-				1970741A20FDBD140070D3AA /* GNSAdapterTapjoyRewardVideoAd.m */,
-				1970741B20FDBD140070D3AA /* GNSAdapterTapjoyRewardVideoAd.h */,
-			);
-			path = Tapjoy;
-			sourceTree = "<group>";
-		};
-		1970741C20FDBD140070D3AA /* AppLovin */ = {
-			isa = PBXGroup;
-			children = (
-				1970741D20FDBD140070D3AA /* GNSAdapterAppLovinRewardVideoAd.m */,
-				1970741E20FDBD140070D3AA /* GNSAdapterAppLovinRewardVideoAd.h */,
-			);
-			path = AppLovin;
-			sourceTree = "<group>";
-		};
-		1970741F20FDBD140070D3AA /* AdColony */ = {
-			isa = PBXGroup;
-			children = (
-				1970742020FDBD140070D3AA /* GNSAdapterAdColonyRewardVideoAd.m */,
-				1970742120FDBD140070D3AA /* GNSAdapterAdColonyRewardVideoAd.h */,
-			);
-			path = AdColony;
-			sourceTree = "<group>";
-		};
-		1970742220FDBD140070D3AA /* Maio */ = {
-			isa = PBXGroup;
-			children = (
-				1970742320FDBD140070D3AA /* GNSAdapterMaioRewardVideoAd.h */,
-				1970742420FDBD150070D3AA /* GNSAdapterMaioRewardVideoAd.m */,
-			);
-			path = Maio;
-			sourceTree = "<group>";
-		};
-		1970742520FDBD150070D3AA /* Nend */ = {
-			isa = PBXGroup;
-			children = (
-				1970742620FDBD150070D3AA /* GNSAdapterNendRewardVideoAd.h */,
-				1970742720FDBD150070D3AA /* GNSAdapterNendRewardVideoAd.m */,
-			);
-			path = Nend;
-			sourceTree = "<group>";
-		};
-		1970742820FDBD150070D3AA /* CAReward */ = {
-			isa = PBXGroup;
-			children = (
-				1970742920FDBD150070D3AA /* GNSAdapterCARewardRewardVideoAd.m */,
-				1970742A20FDBD150070D3AA /* GNSAdapterCARewardRewardVideoAd.h */,
-			);
-			path = CAReward;
 			sourceTree = "<group>";
 		};
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
@@ -585,10 +500,10 @@
 				D8A1C7220E80637F000160D3 /* Libraries */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
 				8D1107310486CEB800E47090 /* Info.plist */,
-				83B2574E0E63025400468741 /* libiconv.2.dylib */,
 				904A415580686E1EE2A7B210 /* LaunchScreen-iPhone.xib */,
 				8726400E8D8D6E1794126E38 /* LaunchScreen-iPhonePortrait.png */,
 				14874292A6E3D7A49F7DE592 /* LaunchScreen-iPhoneLandscape.png */,
+				CCC6CA6FE70C74FC7FB6E970 /* Pods */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -615,8 +530,72 @@
 				56BCBA380FCF049A0030C3B2 /* SystemConfiguration.framework */,
 				830B5C100E5ED4C100C7819F /* UIKit.framework */,
 				20CF4527B18DE576337473B9 /* Metal.framework */,
+				249E8DDDDB3B081D8A414B2B /* libPods-Unity-iPhone.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2F90723F211984AB00464BE2 /* AppLovin */ = {
+			isa = PBXGroup;
+			children = (
+				2F907240211984AB00464BE2 /* GNSAdapterAppLovinRewardVideoAd.m */,
+				2F907241211984AB00464BE2 /* GNSAdapterAppLovinRewardVideoAd.h */,
+			);
+			path = AppLovin;
+			sourceTree = "<group>";
+		};
+		2F907242211984AB00464BE2 /* Maio */ = {
+			isa = PBXGroup;
+			children = (
+				2F907243211984AB00464BE2 /* GNSAdapterMaioRewardVideoAd.h */,
+				2F907244211984AB00464BE2 /* GNSAdapterMaioRewardVideoAd.m */,
+			);
+			path = Maio;
+			sourceTree = "<group>";
+		};
+		2F907245211984AB00464BE2 /* AdColony */ = {
+			isa = PBXGroup;
+			children = (
+				2F907246211984AB00464BE2 /* GNSAdapterAdColonyRewardVideoAd.m */,
+				2F907247211984AB00464BE2 /* GNSAdapterAdColonyRewardVideoAd.h */,
+			);
+			path = AdColony;
+			sourceTree = "<group>";
+		};
+		2F907248211984AB00464BE2 /* Nend */ = {
+			isa = PBXGroup;
+			children = (
+				2F907249211984AB00464BE2 /* GNSAdapterNendRewardVideoAd.h */,
+				2F90724A211984AB00464BE2 /* GNSAdapterNendRewardVideoAd.m */,
+			);
+			path = Nend;
+			sourceTree = "<group>";
+		};
+		2F90724B211984AB00464BE2 /* UnityAds */ = {
+			isa = PBXGroup;
+			children = (
+				2F90724C211984AB00464BE2 /* GNSAdapterUnityAdsRewardVideoAd.m */,
+				2F90724D211984AB00464BE2 /* GNSAdapterUnityAdsRewardVideoAd.h */,
+			);
+			path = UnityAds;
+			sourceTree = "<group>";
+		};
+		2F90724E211984AB00464BE2 /* Vungle */ = {
+			isa = PBXGroup;
+			children = (
+				2F90724F211984AB00464BE2 /* GNSAdapterVungleRewardVideoAd.h */,
+				2F907250211984AB00464BE2 /* GNSAdapterVungleRewardVideoAd.m */,
+			);
+			path = Vungle;
+			sourceTree = "<group>";
+		};
+		2F907251211984AB00464BE2 /* Tapjoy */ = {
+			isa = PBXGroup;
+			children = (
+				2F907252211984AB00464BE2 /* GNSAdapterTapjoyRewardVideoAd.m */,
+				2F907253211984AB00464BE2 /* GNSAdapterTapjoyRewardVideoAd.h */,
+			);
+			path = Tapjoy;
 			sourceTree = "<group>";
 		};
 		5623C57817FDCB0800090B9E /* Unity-iPhone Tests */ = {
@@ -821,6 +800,17 @@
 			path = Native;
 			sourceTree = "<group>";
 		};
+		CCC6CA6FE70C74FC7FB6E970 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ECB49298DB887957659E6D7F /* Pods-Unity-iPhone.release.xcconfig */,
+				A5D5B6D9F57364CEE820DB8A /* Pods-Unity-iPhone.releaseforprofiling.xcconfig */,
+				E0842993BFAE3A2CE185DB1E /* Pods-Unity-iPhone.releaseforrunning.xcconfig */,
+				0521980BC430A9808A8EB3B9 /* Pods-Unity-iPhone.debug.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D82DCFB50E8000A5005D6AD8 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -891,11 +881,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Unity-iPhone" */;
 			buildPhases = (
+				247C6FA20C8EBDB77C18D5CA /* [CP] Check Pods Manifest.lock */,
 				1D60588D0D05DD3D006BFB54 /* Resources */,
 				83D0C1FD0E6C8D7700EBCE5D /* CopyFiles */,
 				1D60588E0D05DD3D006BFB54 /* Sources */,
 				1D60588F0D05DD3D006BFB54 /* Frameworks */,
 				033966F41B18B03000ECD701 /* ShellScript */,
+				648D2BFB186E2C976A3C487E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -930,8 +922,10 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0940;
 				TargetAttributes = {
 					1D6058900D05DD3D006BFB54 = {
+						DevelopmentTeam = RKMVWZ32F4;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.GameControllers.appletvos = {
@@ -957,6 +951,7 @@
 				en,
 			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			productRefGroup = 19C28FACFE9D520D11CA2CBB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -1003,6 +998,45 @@
 			shellPath = /bin/sh;
 			shellScript = "\"$PROJECT_DIR/MapFileParser.sh\"";
 		};
+		247C6FA20C8EBDB77C18D5CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Unity-iPhone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		648D2BFB186E2C976A3C487E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Unity-iPhone/Pods-Unity-iPhone-resources.sh",
+				"${PODS_ROOT}/NendSDK_iOS/NendAd.embeddedframework/NendAd.framework/Resources/NendAdResource.bundle",
+				"${PODS_ROOT}/TapjoySDK/TapjoySDK_iOS_v11.12.2/Libraries/Tapjoy.embeddedframework/Resources/TapjoyResources.bundle",
+				"${PODS_ROOT}/TapjoySDK/TapjoySDK_iOS_v11.12.2/Libraries/Tapjoy.embeddedframework/Tapjoy.framework/Versions/A/Resources/TapjoyResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NendAdResource.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TapjoyResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Unity-iPhone/Pods-Unity-iPhone-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -1011,13 +1045,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D82DCFC30E8000A5005D6AD8 /* main.mm in Sources */,
+				2F907258211984AB00464BE2 /* GNSAdapterUnityAdsRewardVideoAd.m in Sources */,
 				8A793A081ED43EE100B44EF1 /* UnityViewControllerBase+iOS.mm in Sources */,
+				2F907255211984AB00464BE2 /* GNSAdapterMaioRewardVideoAd.m in Sources */,
 				D8A1C7280E80637F000160D3 /* RegisterMonoModules.cpp in Sources */,
 				8AA568AE1827DD79004969C7 /* WWWConnection.mm in Sources */,
 				56DBF99D15E3CDC9007A4A8D /* iPhone_Sensors.mm in Sources */,
 				8A3EDDC81615B7C1001839E9 /* SplashScreen.mm in Sources */,
 				8AC71EC419E7FBA90027502F /* OrientationSupport.mm in Sources */,
-				1970742B20FDBD150070D3AA /* GNSAdapterUnityAdsRewardVideoAd.m in Sources */,
 				8A7939FD1ED2F53200B44EF1 /* UnityViewControllerBase.mm in Sources */,
 				8A9FCB131617295F00C05364 /* ActivityIndicator.mm in Sources */,
 				8A8D90DA1A274A7800456C4E /* UnityAppController+UnityInterface.mm in Sources */,
@@ -1025,6 +1060,7 @@
 				8A142DC61636943E00DD87CA /* Keyboard.mm in Sources */,
 				8A0FED491649699200E9727D /* EAGLContextHelper.mm in Sources */,
 				AAFE69D219F187C200638316 /* UnityViewControllerListener.mm in Sources */,
+				2F907259211984AB00464BE2 /* GNSAdapterVungleRewardVideoAd.m in Sources */,
 				8A1FFFAD16512A9000DD0934 /* GlesHelper.mm in Sources */,
 				848031E11C5160D700FCEAB7 /* UnityReplayKit_Scripting.mm in Sources */,
 				8A5E0B9116849D1800CBB6FE /* DisplayManager.mm in Sources */,
@@ -1032,7 +1068,6 @@
 				1859EA9B19214E7B0022C3D3 /* MetalHelper.mm in Sources */,
 				8A16150C1A8E4362006FA788 /* FullScreenVideoPlayer.mm in Sources */,
 				FC85CCBB16C3ED8000BAF7C7 /* CrashReporter.mm in Sources */,
-				1970742C20FDBD150070D3AA /* GNSAdapterVungleRewardVideoAd.m in Sources */,
 				8AB3CB3E16D390BB00697AD5 /* VideoPlayer.mm in Sources */,
 				8A793A071ED43EE100B44EF1 /* UnityView+tvOS.mm in Sources */,
 				8A2AA93516E0978D001FB470 /* CMVideoSampling.mm in Sources */,
@@ -1051,9 +1086,9 @@
 				8A5C1492174E662D0006EB36 /* RenderPluginDelegate.mm in Sources */,
 				8AF7756017997D2700341121 /* AppDelegateListener.mm in Sources */,
 				FC0B20A21B7A4F0B00FDFC55 /* OnDemandResources.mm in Sources */,
+				2F907254211984AB00464BE2 /* GNSAdapterAppLovinRewardVideoAd.m in Sources */,
 				AAC3E38D1A68945900F6174A /* RegisterFeatures.cpp in Sources */,
 				84DC28F61C5137FE00BC67D7 /* UnityReplayKit.mm in Sources */,
-				1970742E20FDBD150070D3AA /* GNSAdapterTapjoyRewardVideoAd.m in Sources */,
 				8ACB801C177081D4005D0019 /* DeviceSettings.mm in Sources */,
 				03F528631B447098000F4FB8 /* Il2CppOptions.cpp in Sources */,
 				4DED47E183694BD54A5071BD /* Bulk_Assembly-CSharp_0.cpp in Sources */,
@@ -1064,6 +1099,7 @@
 				A8484FF8953E58057BBDD39C /* Bulk_Mono.Security_0.cpp in Sources */,
 				46F149929A0DDD776653FFD9 /* Bulk_Mono.Security_1.cpp in Sources */,
 				637E458F92FC3322BA5B67AF /* Bulk_System.Core_0.cpp in Sources */,
+				2F90725A211984AB00464BE2 /* GNSAdapterTapjoyRewardVideoAd.m in Sources */,
 				6DDB44A0A8BE520FBD345EB1 /* Bulk_System_0.cpp in Sources */,
 				9682453B8086C463C1A94383 /* Bulk_System_1.cpp in Sources */,
 				72BD42AD8513222AABD8AEB9 /* Bulk_UnityEngine.AnimationModule_0.cpp in Sources */,
@@ -1074,15 +1110,12 @@
 				48264AAE83A128066A5E12DF /* Bulk_UnityEngine.IMGUIModule_0.cpp in Sources */,
 				F449463994BDECA76B837FE7 /* Bulk_UnityEngine.Physics2DModule_0.cpp in Sources */,
 				15434B6FB37BDA553B3A8346 /* Bulk_UnityEngine.PhysicsModule_0.cpp in Sources */,
-				1970743220FDBD150070D3AA /* GNSAdapterNendRewardVideoAd.m in Sources */,
 				0F024EA48E747D74F08E4248 /* Bulk_UnityEngine.SharedInternalsModule_0.cpp in Sources */,
 				D97E4D34BCAF255D01199923 /* Bulk_UnityEngine.TextRenderingModule_0.cpp in Sources */,
-				1970743320FDBD150070D3AA /* GNSAdapterCARewardRewardVideoAd.m in Sources */,
 				E0ED480B8A6E0039B10D08DB /* Bulk_UnityEngine.UIModule_0.cpp in Sources */,
 				E2BC4C9E99FC7E789A87565E /* Bulk_UnityEngine.UI_0.cpp in Sources */,
 				ADB4445DAA26D22CBEA2F1CF /* Bulk_UnityEngine.UI_1.cpp in Sources */,
 				23B64F6F8AADADBA15951888 /* Bulk_UnityEngine.UI_2.cpp in Sources */,
-				1970742D20FDBD150070D3AA /* GNSAdapterAmoadRewardVideoAd.m in Sources */,
 				69AB49D78297B2BFD0E98424 /* Bulk_UnityEngine.UnityConnectModule_0.cpp in Sources */,
 				67DA4F769556D3A8FAAC04CA /* Bulk_UnityEngine.UnityWebRequestModule_0.cpp in Sources */,
 				50DA4349A6C1EA16F7BB5502 /* Bulk_UnityEngine_0.cpp in Sources */,
@@ -1091,8 +1124,8 @@
 				DD4F4CD1BA6982312C1FA71A /* Bulk_mscorlib_10.cpp in Sources */,
 				77984AFBA9F66A8F58DCE492 /* Bulk_mscorlib_2.cpp in Sources */,
 				10E14293A50751D16034C5B1 /* Bulk_mscorlib_3.cpp in Sources */,
-				1970742F20FDBD150070D3AA /* GNSAdapterAppLovinRewardVideoAd.m in Sources */,
 				6DDA49439987DE9434E43A80 /* Bulk_mscorlib_4.cpp in Sources */,
+				2F907257211984AB00464BE2 /* GNSAdapterNendRewardVideoAd.m in Sources */,
 				287C446CB315AA40E177B142 /* Bulk_mscorlib_5.cpp in Sources */,
 				E9E34A6780310D6A29537E6F /* Bulk_mscorlib_6.cpp in Sources */,
 				3583446D83E869D220CA436F /* Bulk_mscorlib_7.cpp in Sources */,
@@ -1116,7 +1149,6 @@
 				08084648A12920A3D5128B01 /* Il2CppCompilerCalculateTypeValues_19Table.cpp in Sources */,
 				92054CA2A095B89B9BBB8EA2 /* Il2CppCompilerCalculateTypeValues_1Table.cpp in Sources */,
 				B98F4B158FFF8A1D5417AA3A /* Il2CppCompilerCalculateTypeValues_2Table.cpp in Sources */,
-				1970743120FDBD150070D3AA /* GNSAdapterMaioRewardVideoAd.m in Sources */,
 				BE27435EAF2DBF0663A365AC /* Il2CppCompilerCalculateTypeValues_3Table.cpp in Sources */,
 				2B504F748CEA6C67FFCB9837 /* Il2CppCompilerCalculateTypeValues_4Table.cpp in Sources */,
 				FC7C46D3B93E2766C505EDE3 /* Il2CppCompilerCalculateTypeValues_5Table.cpp in Sources */,
@@ -1132,7 +1164,6 @@
 				A3214B8A85AA87EC0530C82B /* Il2CppGenericMethodTable.cpp in Sources */,
 				A74A44F2A966A19B8251C804 /* Il2CppInteropDataTable.cpp in Sources */,
 				EDAE48A0A3083908992C776A /* Il2CppInvokerTable.cpp in Sources */,
-				1970743020FDBD150070D3AA /* GNSAdapterAdColonyRewardVideoAd.m in Sources */,
 				F70D4EC48492980BEDF6D6B8 /* Il2CppMetadataRegistration.cpp in Sources */,
 				19CE41629DF2525435FE6762 /* Il2CppMetadataUsage.cpp in Sources */,
 				636541268C993129FC5E3A51 /* Il2CppMethodPointerTable.cpp in Sources */,
@@ -1142,6 +1173,7 @@
 				F7E54037A9399F8D923ABF47 /* UnityICallRegistration.cpp in Sources */,
 				3F9243C68ED40DE87CB13BA7 /* UnresolvedVirtualCallStubs.cpp in Sources */,
 				B751498E930C1F2760121ED4 /* GNSURewardVideoAd.m in Sources */,
+				2F907256211984AB00464BE2 /* GNSAdapterAdColonyRewardVideoAd.m in Sources */,
 				486E4F5EA865EEB994BDA4FF /* GNSUObjectCache.m in Sources */,
 				1C8843B0BC83887F1C8500E5 /* GNSUInterface.m in Sources */,
 			);
@@ -1179,12 +1211,9 @@
 /* Begin XCBuildConfiguration section */
 		1D6058940D05DD3E006BFB54 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0521980BC430A9808A8EB3B9 /* Pods-Unity-iPhone.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = (
-					armv7,
-					arm64,
-				);
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
@@ -1193,9 +1222,12 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = RKMVWZ32F4;
 				ENABLE_BITCODE = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_CPP_EXCEPTIONS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -1215,8 +1247,9 @@
 				LD_GENERATE_MAP_FILE = YES;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)\"",
+					"$(SRCROOT)",
 					"\"$(SRCROOT)/Libraries\"",
+					"$(PROJECT_DIR)/AMoAdSdk",
 				);
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = (
@@ -1235,6 +1268,7 @@
 					CoreMotion,
 					"-weak-lSystem",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.geniee.${PRODUCT_NAME}";
 				PRODUCT_NAME = GNSUnitySampleRewardVideo;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
@@ -1247,12 +1281,9 @@
 		};
 		1D6058950D05DD3E006BFB54 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECB49298DB887957659E6D7F /* Pods-Unity-iPhone.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = (
-					armv7,
-					arm64,
-				);
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
@@ -1261,9 +1292,12 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				COPY_PHASE_STRIP = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = RKMVWZ32F4;
 				ENABLE_BITCODE = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_ENABLE_CPP_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Classes/Prefix.pch;
@@ -1280,8 +1314,9 @@
 				LD_GENERATE_MAP_FILE = YES;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)\"",
+					"$(SRCROOT)",
 					"\"$(SRCROOT)/Libraries\"",
+					"$(PROJECT_DIR)/AMoAdSdk",
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = (
@@ -1300,6 +1335,7 @@
 					CoreMotion,
 					"-weak-lSystem",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.geniee.${PRODUCT_NAME}";
 				PRODUCT_NAME = GNSUnitySampleRewardVideo;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
@@ -1314,10 +1350,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = (
-					armv7,
-					arm64,
-				);
 				BUNDLE_LOADER = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(PRODUCT_NAME).app/$(PRODUCT_NAME)";
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -1347,6 +1379,7 @@
 				INFOPLIST_FILE = "Unity-iPhone Tests/Unity-iPhone Tests-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_GENERATE_MAP_FILE = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.unity3d.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = GNSUnitySampleRewardVideo;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
@@ -1364,10 +1397,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = (
-					armv7,
-					arm64,
-				);
 				BUNDLE_LOADER = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(PRODUCT_NAME).app/$(PRODUCT_NAME)";
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -1404,6 +1433,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_GENERATE_MAP_FILE = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.unity3d.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = GNSUnitySampleRewardVideo;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
@@ -1419,16 +1449,39 @@
 		56E860801D6757FF00A1AB2B /* ReleaseForRunning */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = armv7;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_BITCODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_ENABLE_CPP_EXCEPTIONS = NO;
 				GCC_ENABLE_CPP_RTTI = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_THUMB_SUPPORT = NO;
 				GCC_USE_INDIRECT_FUNCTION_CALLS = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = iphoneos;
@@ -1437,12 +1490,9 @@
 		};
 		56E860811D6757FF00A1AB2B /* ReleaseForRunning */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0842993BFAE3A2CE185DB1E /* Pods-Unity-iPhone.releaseforrunning.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = (
-					armv7,
-					arm64,
-				);
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
@@ -1452,9 +1502,12 @@
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = RKMVWZ32F4;
 				ENABLE_BITCODE = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_ENABLE_CPP_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Classes/Prefix.pch;
@@ -1471,8 +1524,9 @@
 				LD_GENERATE_MAP_FILE = YES;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)\"",
+					"$(SRCROOT)",
 					"\"$(SRCROOT)/Libraries\"",
+					"$(PROJECT_DIR)/AMoAdSdk",
 				);
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = (
@@ -1491,6 +1545,7 @@
 					CoreMotion,
 					"-weak-lSystem",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.geniee.${PRODUCT_NAME}";
 				PRODUCT_NAME = GNSUnitySampleRewardVideo;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
@@ -1505,10 +1560,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = (
-					armv7,
-					arm64,
-				);
 				BUNDLE_LOADER = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(PRODUCT_NAME).app/$(PRODUCT_NAME)";
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -1538,6 +1589,7 @@
 				INFOPLIST_FILE = "Unity-iPhone Tests/Unity-iPhone Tests-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_GENERATE_MAP_FILE = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.unity3d.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = GNSUnitySampleRewardVideo;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
@@ -1554,16 +1606,39 @@
 		56E860831D67581C00A1AB2B /* ReleaseForProfiling */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = armv7;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_BITCODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_ENABLE_CPP_EXCEPTIONS = NO;
 				GCC_ENABLE_CPP_RTTI = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_THUMB_SUPPORT = NO;
 				GCC_USE_INDIRECT_FUNCTION_CALLS = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = iphoneos;
@@ -1572,12 +1647,9 @@
 		};
 		56E860841D67581C00A1AB2B /* ReleaseForProfiling */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5D5B6D9F57364CEE820DB8A /* Pods-Unity-iPhone.releaseforprofiling.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = (
-					armv7,
-					arm64,
-				);
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
@@ -1586,9 +1658,12 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				COPY_PHASE_STRIP = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = RKMVWZ32F4;
 				ENABLE_BITCODE = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_ENABLE_CPP_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Classes/Prefix.pch;
@@ -1605,8 +1680,9 @@
 				LD_GENERATE_MAP_FILE = YES;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)\"",
+					"$(SRCROOT)",
 					"\"$(SRCROOT)/Libraries\"",
+					"$(PROJECT_DIR)/AMoAdSdk",
 				);
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = (
@@ -1625,6 +1701,7 @@
 					CoreMotion,
 					"-weak-lSystem",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.geniee.${PRODUCT_NAME}";
 				PRODUCT_NAME = GNSUnitySampleRewardVideo;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
@@ -1639,10 +1716,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = (
-					armv7,
-					arm64,
-				);
 				BUNDLE_LOADER = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(PRODUCT_NAME).app/$(PRODUCT_NAME)";
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -1672,6 +1745,7 @@
 				INFOPLIST_FILE = "Unity-iPhone Tests/Unity-iPhone Tests-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_GENERATE_MAP_FILE = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.unity3d.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = GNSUnitySampleRewardVideo;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
@@ -1688,19 +1762,43 @@
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = armv7;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_BITCODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_ENABLE_CPP_EXCEPTIONS = NO;
 				GCC_ENABLE_CPP_RTTI = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_THUMB_SUPPORT = NO;
 				GCC_USE_INDIRECT_FUNCTION_CALLS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				ONLY_ACTIVE_ARCH = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "";
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = iphoneos;
@@ -1710,16 +1808,39 @@
 		C01FCF5008A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = armv7;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_BITCODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_ENABLE_CPP_EXCEPTIONS = NO;
 				GCC_ENABLE_CPP_RTTI = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_THUMB_SUPPORT = NO;
 				GCC_USE_INDIRECT_FUNCTION_CALLS = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = iphoneos;
