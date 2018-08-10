@@ -119,7 +119,7 @@
     </androidPackage>
 
     <!-- GNAdSDK -->
-    <androidPackage spec="jp.co.geniee.gnadsdk:GNAdSDK:3.1.0">
+    <androidPackage spec="jp.co.geniee.gnadsdk:GNAdSDK:3.1.3">
     <androidSdkPackageIds>
         <androidSdkPackageId>extra-geniee-repository</androidSdkPackageId>
       </androidSdkPackageIds>
@@ -139,7 +139,7 @@
     </androidPackage>
 
     <!-- GNSRewardAdapter All ADNW-->
-    <androidPackage spec="jp.co.geniee.gnsrewardadapter:GNSRewardAdapter:2.1.0">
+    <androidPackage spec="jp.co.geniee.gnsrewardadapter:GNSRewardAdapter:2.2.0">
     <androidSdkPackageIds>
         <androidSdkPackageId>extra-geniee-repository</androidSdkPackageId>
       </androidSdkPackageIds>
@@ -152,7 +152,7 @@
       </repositories>
     </androidPackage>
 
-    <androidPackage spec="jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-AdColony:2.1.0">
+    <androidPackage spec="jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-AdColony:2.2.0">
     <androidSdkPackageIds>
         <androidSdkPackageId>extra-geniee-repository</androidSdkPackageId>
       </androidSdkPackageIds>
@@ -161,7 +161,7 @@
       </repositories>
     </androidPackage>
 
-    <androidPackage spec="jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-Amoad:2.1.0">
+    <androidPackage spec="jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-Amoad:2.2.0">
     <androidSdkPackageIds>
         <androidSdkPackageId>extra-geniee-repository</androidSdkPackageId>
       </androidSdkPackageIds>
@@ -170,7 +170,7 @@
       </repositories>
     </androidPackage>
 
-    <androidPackage spec="jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-AppLovin:2.1.0">
+    <androidPackage spec="jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-AppLovin:2.2.0">
     <androidSdkPackageIds>
         <androidSdkPackageId>extra-geniee-repository</androidSdkPackageId>
       </androidSdkPackageIds>
@@ -179,7 +179,7 @@
       </repositories>
     </androidPackage>
 
-    <androidPackage spec="jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-CAReward:2.1.0">
+    <androidPackage spec="jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-CAReward:2.2.0">
     <androidSdkPackageIds>
         <androidSdkPackageId>extra-geniee-repository</androidSdkPackageId>
       </androidSdkPackageIds>
@@ -188,7 +188,7 @@
       </repositories>
     </androidPackage>
 
-    <androidPackage spec="jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-Maio:2.1.0">
+    <androidPackage spec="jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-Maio:2.2.0">
     <androidSdkPackageIds>
         <androidSdkPackageId>extra-geniee-repository</androidSdkPackageId>
       </androidSdkPackageIds>
@@ -197,7 +197,7 @@
       </repositories>
     </androidPackage>
 
-    <androidPackage spec="jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-Nend:2.1.0">
+    <androidPackage spec="jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-Nend:2.2.0">
     <androidSdkPackageIds>
         <androidSdkPackageId>extra-geniee-repository</androidSdkPackageId>
       </androidSdkPackageIds>
@@ -206,7 +206,7 @@
       </repositories>
     </androidPackage>
 
-    <androidPackage spec="jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-Tapjoy:2.1.0">
+    <androidPackage spec="jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-Tapjoy:2.2.0">
     <androidSdkPackageIds>
         <androidSdkPackageId>extra-geniee-repository</androidSdkPackageId>
       </androidSdkPackageIds>
@@ -215,7 +215,7 @@
       </repositories>
     </androidPackage>
 
-    <androidPackage spec="jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-UnityAds:2.1.0">
+    <androidPackage spec="jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-UnityAds:2.2.0">
     <androidSdkPackageIds>
         <androidSdkPackageId>extra-geniee-repository</androidSdkPackageId>
       </androidSdkPackageIds>
@@ -224,7 +224,7 @@
       </repositories>
     </androidPackage>
 
-    <androidPackage spec="jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-Vungle:2.1.0">
+    <androidPackage spec="jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-Vungle:2.2.0">
     <androidSdkPackageIds>
         <androidSdkPackageId>extra-geniee-repository</androidSdkPackageId>
       </androidSdkPackageIds>

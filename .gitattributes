@@ -2,3 +2,4 @@ reward-dfp/GNSDK-DFP-Unity-Plugin/RewardSampleUseCocoapods/Libraries/libil2cpp.a
 reward-dfp/GNSDK-DFP-Unity-Plugin/RewardSampleUseCocoapods/Libraries/libiPhone-lib.a filter=lfs diff=lfs merge=lfs -text
 reward/GNSDK-Unity-Plugin/RewardVideoSampleUseCocoapods/Libraries/libiPhone-lib.a filter=lfs diff=lfs merge=lfs -text
 reward/GNSDK-Unity-Plugin/RewardVideoSampleUseCocoapods/Libraries/libil2cpp.a filter=lfs diff=lfs merge=lfs -text
+/.git/objects/pack/pack-9d8d2109858678bbda46aa9049a90061ce02a004.pack filter=lfs diff=lfs merge=lfs -text
