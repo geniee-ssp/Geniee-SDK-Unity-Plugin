@@ -9,6 +9,15 @@
     <package>com.google.android.gms:play-services-location:15.0.1</package>
     <package>jp.co.geniee.gnadsdk:GNAdSDK:3.2.0</package>
     <package>jp.co.geniee.gnsrewardadapter:GNSRewardAdapter:2.3.0</package>
+    <package>jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-AdColony:2.3.0</package>
+    <package>jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-Amoad:2.3.0</package>
+    <package>jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-AppLovin:2.3.0</package>
+    <package>jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-CAReward:2.3.0</package>
+    <package>jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-Maio:2.3.0</package>
+    <package>jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-Nend:2.3.0</package>
+    <package>jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-Tapjoy:2.3.0</package>
+    <package>jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-UnityAds:2.3.0</package>
+    <package>jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-Vungle:2.3.0</package>
   </packages>
   <files>
     <file>Assets/Plugins/Android/android.arch.core.common-1.1.0.jar</file>
