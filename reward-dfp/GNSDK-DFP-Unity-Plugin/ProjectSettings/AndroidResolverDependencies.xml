@@ -10,16 +10,16 @@
     <package>com.google.android.gms:play-services-location:15.0.1</package>
     <package>jp.co.geniee.gnaddfprewardmediationadapter:GNAdDFPRewardMediationAdapter:1.0.0</package>
     <package>jp.co.geniee.gnadsdk:GNAdSDK:3.1.0</package>
-    <package>jp.co.geniee.gnsrewardadapter:GNSRewardAdapter:2.1.0</package>
-    <package>jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-AdColony:2.1.0</package>
-    <package>jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-Amoad:2.1.0</package>
-    <package>jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-AppLovin:2.1.0</package>
-    <package>jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-CAReward:2.1.0</package>
-    <package>jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-Maio:2.1.0</package>
-    <package>jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-Nend:2.1.0</package>
-    <package>jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-Tapjoy:2.1.0</package>
-    <package>jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-UnityAds:2.1.0</package>
-    <package>jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-Vungle:2.1.0</package>
+    <package>jp.co.geniee.gnsrewardadapter:GNSRewardAdapter:2.3.0</package>
+    <package>jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-AdColony:2.3.0</package>
+    <package>jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-Amoad:2.3.0</package>
+    <package>jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-AppLovin:2.3.0</package>
+    <package>jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-CAReward:2.3.0</package>
+    <package>jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-Maio:2.3.0</package>
+    <package>jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-Nend:2.3.0</package>
+    <package>jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-Tapjoy:2.3.0</package>
+    <package>jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-UnityAds:2.3.0</package>
+    <package>jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-Vungle:2.3.0</package>
   </packages>
   <files>
     <file>Assets/Plugins/Android/android.arch.core.common-1.1.0.jar</file>
@@ -71,18 +71,18 @@
     <file>Assets/Plugins/Android/com.tapjoy.tapjoy-android-sdk-11.12.2.aar</file>
     <file>Assets/Plugins/Android/com.tonyodev.fetch.fetch-1.1.5.aar</file>
     <file>Assets/Plugins/Android/com.unity3d.ads.unity-ads-2.2.0.aar</file>
-    <file>Assets/Plugins/Android/jp.co.geniee.gnaddfprewardmediationadapter.GNAdDFPRewardMediationAdapter-1.0.0.aar</file>
-    <file>Assets/Plugins/Android/jp.co.geniee.gnadsdk.GNAdSDK-3.1.0.aar</file>
-    <file>Assets/Plugins/Android/jp.co.geniee.gnsrewardadapter.GNSRewardAdapter-2.1.0.aar</file>
-    <file>Assets/Plugins/Android/jp.co.geniee.gnsrewardadapter.GNSRewardAdapter-AdColony-2.1.0.aar</file>
-    <file>Assets/Plugins/Android/jp.co.geniee.gnsrewardadapter.GNSRewardAdapter-Amoad-2.1.0.aar</file>
-    <file>Assets/Plugins/Android/jp.co.geniee.gnsrewardadapter.GNSRewardAdapter-AppLovin-2.1.0.aar</file>
-    <file>Assets/Plugins/Android/jp.co.geniee.gnsrewardadapter.GNSRewardAdapter-CAReward-2.1.0.aar</file>
-    <file>Assets/Plugins/Android/jp.co.geniee.gnsrewardadapter.GNSRewardAdapter-Maio-2.1.0.aar</file>
-    <file>Assets/Plugins/Android/jp.co.geniee.gnsrewardadapter.GNSRewardAdapter-Nend-2.1.0.aar</file>
-    <file>Assets/Plugins/Android/jp.co.geniee.gnsrewardadapter.GNSRewardAdapter-Tapjoy-2.1.0.aar</file>
-    <file>Assets/Plugins/Android/jp.co.geniee.gnsrewardadapter.GNSRewardAdapter-UnityAds-2.1.0.aar</file>
-    <file>Assets/Plugins/Android/jp.co.geniee.gnsrewardadapter.GNSRewardAdapter-Vungle-2.1.0.aar</file>
+    <file>Assets/Plugins/Android/jp.co.geniee.gnaddfprewardmediationadapter.GNAdDFPRewardMediationAdapter-1.1.0.aar</file>
+    <file>Assets/Plugins/Android/jp.co.geniee.gnadsdk.GNAdSDK-3.2.0.aar</file>
+    <file>Assets/Plugins/Android/jp.co.geniee.gnsrewardadapter.GNSRewardAdapter-2.3.0.aar</file>
+    <file>Assets/Plugins/Android/jp.co.geniee.gnsrewardadapter.GNSRewardAdapter-AdColony-2.3.0.aar</file>
+    <file>Assets/Plugins/Android/jp.co.geniee.gnsrewardadapter.GNSRewardAdapter-Amoad-2.3.0.aar</file>
+    <file>Assets/Plugins/Android/jp.co.geniee.gnsrewardadapter.GNSRewardAdapter-AppLovin-2.3.0.aar</file>
+    <file>Assets/Plugins/Android/jp.co.geniee.gnsrewardadapter.GNSRewardAdapter-CAReward-2.3.0.aar</file>
+    <file>Assets/Plugins/Android/jp.co.geniee.gnsrewardadapter.GNSRewardAdapter-Maio-2.3.0.aar</file>
+    <file>Assets/Plugins/Android/jp.co.geniee.gnsrewardadapter.GNSRewardAdapter-Nend-2.3.0.aar</file>
+    <file>Assets/Plugins/Android/jp.co.geniee.gnsrewardadapter.GNSRewardAdapter-Tapjoy-2.3.0.aar</file>
+    <file>Assets/Plugins/Android/jp.co.geniee.gnsrewardadapter.GNSRewardAdapter-UnityAds-2.3.0.aar</file>
+    <file>Assets/Plugins/Android/jp.co.geniee.gnsrewardadapter.GNSRewardAdapter-Vungle-2.3.0.aar</file>
     <file>Assets/Plugins/Android/net.nend.android.nend-sdk-4.0.4.aar</file>
     <file>Assets/Plugins/Android/net.vrallev.android.cat-1.0.5.aar</file>
   </files>
