@@ -16,7 +16,6 @@ public class SubSceneScript : MonoBehaviour
         GameObject.Find("LoadButton").GetComponent<Button>().onClick.AddListener(LoadRewardVideoAd);
         GameObject.Find("ShowButton").GetComponent<Button>().onClick.AddListener(ShowRewardVideoAd);
         GameObject.Find("NextSceneButton").GetComponent<Button>().onClick.AddListener(OnClickNextScene);
-        GameObject.Find("ExitButton").GetComponent<Button>().onClick.AddListener(OnClickExit);
         request = new AdRequest.Builder().Build();
     }
     void LoadRewardVideoAd()
@@ -94,10 +93,5 @@ public class SubSceneScript : MonoBehaviour
     void OnClickNextScene()
     {
         SceneManager.LoadScene("MainScene");
-    }
-
-    void OnClickExit()
-    {
-        Application.Quit();
     }
 }
