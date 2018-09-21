@@ -5,7 +5,7 @@ platform :ios, '9.0'
 target 'Unity-iPhone' do
 pod 'AdColony', '~> 3.3.4'
 pod 'AppLovinSDK', '~> 5.0.1'
-pod 'Geniee-DFP-Mediation-Adapter', '~> 3.1.0'
+pod 'Geniee-DFP-Mediation-Adapter'
 pod 'Geniee-iOS-SDK'
 pod 'Google-Mobile-Ads-SDK', '~> 7.0'
 pod 'MaioSDK', '~> 1.3.0'
