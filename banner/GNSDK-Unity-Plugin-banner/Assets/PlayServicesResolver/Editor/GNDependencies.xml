@@ -102,7 +102,8 @@
         <androidSdkPackageId>extra-geniee-repository</androidSdkPackageId>
       </androidSdkPackageIds>
       <repositories>
-        <repository>http://raw.github.com/geniee-ssp/Geniee-Android-SDK/master/repository</repository>
+<!--        <repository>http://raw.github.com/geniee-ssp/Geniee-Android-SDK/master/repository</repository>-->
+        <repository>'http://gitlab.geniee.jp/sdk/ssp-android-sdk/raw/hotfix/Banner_confirmation/Git/repository/'</repository>
       </repositories>
     </androidPackage>
 

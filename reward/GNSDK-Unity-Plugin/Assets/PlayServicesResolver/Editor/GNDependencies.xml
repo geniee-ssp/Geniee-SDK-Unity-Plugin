@@ -107,7 +107,7 @@
       </repositories>
     </androidPackage>
 
-    <androidPackage spec="com.android.support.constraint:constraint-layout:1.1.2">
+    <androidPackage spec="com.android.support.constraint:constraint-layout:1.1.3">
     <androidSdkPackageIds>
         <androidSdkPackageId>extra-google-m2repository</androidSdkPackageId>
       </androidSdkPackageIds>
@@ -119,7 +119,7 @@
     </androidPackage>
 
 	<!-- GNAdSDK -->
-    <androidPackage spec="jp.co.geniee.gnadsdk:GNAdSDK:3.2.0">
+    <androidPackage spec="jp.co.geniee.gnadsdk:GNAdSDK:3.2.1">
     <androidSdkPackageIds>
         <androidSdkPackageId>extra-geniee-repository</androidSdkPackageId>
       </androidSdkPackageIds>
