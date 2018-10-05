@@ -60,7 +60,6 @@ public class MainSceneScript : MonoBehaviour
         GameObject.Find("LoadButton").GetComponent<Button>().onClick.AddListener(LoadRewardVideoAd);
         GameObject.Find("ShowButton").GetComponent<Button>().onClick.AddListener(ShowRewardVideoAd);
         GameObject.Find("NextSceneButton").GetComponent<Button>().onClick.AddListener(OnClickNextScene);
-        GameObject.Find("ExitButton").GetComponent<Button>().onClick.AddListener(OnClickExit);
         string zoneId = PlayerPrefs.GetString(zoneIdKey, "");
         GameObject.Find("/Canvas/InputField").GetComponent<InputField>().text = zoneId;
         GameObject.Find("TitleText").GetComponent<Text>().text = Application.productName;
@@ -113,11 +112,4 @@ public class MainSceneScript : MonoBehaviour
     {
         SceneManager.LoadScene("SubScene");
     }
-
-    void OnClickExit()
-    {
-        Application.Quit();
-    }
-
-
 }
