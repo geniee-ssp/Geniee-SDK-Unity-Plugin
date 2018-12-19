@@ -35,24 +35,22 @@
     </androidPackage>-->
 
 	<!-- GNAdSDK -->
-    <androidPackage spec="jp.co.geniee.gnadsdk:GNAdSDK:3.2.1">
+    <androidPackage spec="jp.co.geniee.gnadsdk:GNAdSDK:4.0.0">
     <androidSdkPackageIds>
         <androidSdkPackageId>extra-geniee-repository</androidSdkPackageId>
       </androidSdkPackageIds>
       <repositories>
-            <repository>https://raw.github.com/geniee-ssp/Geniee-Android-SDK/master/repository</repository>
-<!--        <repository>https://raw.github.com/geniee-ssp/Geniee-Android-SDK/master/repository</repository>--> 
-     </repositories>
+        <repository>https://raw.github.com/geniee-ssp/Geniee-Android-SDK/master/repository</repository>
+      </repositories>
     </androidPackage>
 
     <!-- GNAdDFPBannerMediationAdapter -->
-    <androidPackage spec="jp.co.geniee.gnaddfpbannermediationadapter:GNAdDFPBannerMediationAdapter:1.0.0">
+    <androidPackage spec="jp.co.geniee.gnaddfpbannermediationadapter:GNAdDFPBannerMediationAdapter:4.0.0.0">
     <androidSdkPackageIds>
         <androidSdkPackageId>extra-geniee-repository</androidSdkPackageId>
       </androidSdkPackageIds>
       <repositories>
-          <repository>https://raw.github.com/geniee-ssp/Geniee-Android-SDK/master/repository</repository>
-<!--        <repository>https://raw.github.com/geniee-ssp/Geniee-Android-SDK/master/repository</repository> -->
+        <repository>https://raw.github.com/geniee-ssp/Geniee-Android-SDK/master/repository</repository>
       </repositories>
     </androidPackage>
   </androidPackages>
