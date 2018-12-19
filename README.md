@@ -6,9 +6,9 @@
 
 ### [English](SDK-Manual-en.md)
 
-## Support Version
+## Latest Package Version
 
-|Package| Version | Android, iOS  |
+|Package Name| Version | Android & iOS Support Version  |
 |:--|:--|:--|
 |GNSAdSDK-UnityPlugin-Banner| 3.0.0 | [Banner](https://github.com/geniee-ssp/Geniee-SDK-Unity-Plugin/wiki/Banner-Readme)|
 |GNSAdSDK-UnityPlugin-DFP-Banner |2.0.0|[Banner-DFP](https://github.com/geniee-ssp/Geniee-SDK-Unity-Plugin/wiki/Banner-Readme_DFP)|
