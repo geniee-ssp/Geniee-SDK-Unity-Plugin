@@ -3,9 +3,12 @@
 Geniee SDK Unity Plugin is the SDK Plugin for displaying advertising in the Unity application.
 
 It supports the following format.
-- [What is banner advertising] (https://github.com/geniee-ssp/Geniee-SDK-Unity-Plugin/wiki/Banner-Readme)
-- [Video Rewards advertising] (https://github.com/geniee-ssp/Geniee-SDK-Unity-Plugin/wiki/RewardVideo-Readme)
-- [DFP Video Rewards mediation advertising] (https://github.com/geniee-ssp/Geniee-SDK-Unity-Plugin/wiki/RewardVideo-Readme_DFP)
+- [Banner advertising] (https://github.com/geniee-ssp/Geniee-SDK-Unity-Plugin/wiki/Banner-Readme_Eng)
+- [DFP Banner advertising] (https://github.com/geniee-ssp/Geniee-SDK-Unity-Plugin/wiki/Banner-Readme_DFP_Eng)
+- [Video Rewards advertising] (https://github.com/geniee-ssp/Geniee-SDK-Unity-Plugin/wiki/RewardVideo-Readme_Eng)
+- [DFP Video Rewards mediation advertising] (https://github.com/geniee-ssp/Geniee-SDK-Unity-Plugin/wiki/RewardVideo-Readme_DFP_Eng)
+- [Fullscreen Interstitial advertising] (https://github.com/geniee-ssp/Geniee-SDK-Unity-Plugin/wiki/FullscreenInterstitial-Readme_Eng)
+- [DFP Fullscreen Interstitial mediation advertising] (https://github.com/geniee-ssp/Geniee-SDK-Unity-Plugin/wiki/FullscreenInterstitial-Readme_DFP_Eng)
 
 ## downloads
 
