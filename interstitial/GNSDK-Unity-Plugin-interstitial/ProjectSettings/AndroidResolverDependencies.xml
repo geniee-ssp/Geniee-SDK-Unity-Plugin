@@ -7,12 +7,16 @@
     <package>com.google.android.gms:play-services-ads:15.0.1</package>
     <package>com.google.android.gms:play-services-gcm:15.0.1</package>
     <package>com.google.android.gms:play-services-location:15.0.1</package>
-    <package>jp.co.geniee.gnadsdk:GNAdSDK:4.0.0</package>
-    <package>jp.co.geniee.gnsfullscreeninterstitialadapter:GNSFullscreenInterstitialAdapter:1.0.0</package>
-    <package>jp.co.geniee.gnsfullscreeninterstitialadapter:GNSFullscreenInterstitialAdapter-AppLovin:1.0.0</package>
-    <package>jp.co.geniee.gnsfullscreeninterstitialadapter:GNSFullscreenInterstitialAdapter-Maio:1.0.0</package>
-    <package>jp.co.geniee.gnsfullscreeninterstitialadapter:GNSFullscreenInterstitialAdapter-Nend:1.0.0</package>
-    <package>jp.co.geniee.gnsfullscreeninterstitialadapter:GNSFullscreenInterstitialAdapter-Zucks:1.0.0</package>
+    <package>jp.co.geniee.gnadsdk:GNAdSDK:5.1.0</package>
+    <package>jp.co.geniee.gnsfullscreeninterstitialadapter:GNSFullscreenInterstitialAdapter:2.0.0</package>
+    <package>jp.co.geniee.gnsfullscreeninterstitialadapter:GNSFullscreenInterstitialAdapter-AppLovin:2.0.0</package>
+    <package>jp.co.geniee.gnsfullscreeninterstitialadapter:GNSFullscreenInterstitialAdapter-Imobile:2.0.0</package>
+    <package>jp.co.geniee.gnsfullscreeninterstitialadapter:GNSFullscreenInterstitialAdapter-Maio:2.0.0</package>
+    <package>jp.co.geniee.gnsfullscreeninterstitialadapter:GNSFullscreenInterstitialAdapter-Nend:2.0.0</package>
+    <package>jp.co.geniee.gnsfullscreeninterstitialadapter:GNSFullscreenInterstitialAdapter-Tapjoy:2.0.0</package>
+    <package>jp.co.geniee.gnsfullscreeninterstitialadapter:GNSFullscreenInterstitialAdapter-UnityAds:2.0.0</package>
+    <package>jp.co.geniee.gnsfullscreeninterstitialadapter:GNSFullscreenInterstitialAdapter-Vungle:2.0.0</package>
+    <package>jp.co.geniee.gnsfullscreeninterstitialadapter:GNSFullscreenInterstitialAdapter-Zucks:2.0.0</package>
   </packages>
   <files>
     <file>Assets/Plugins/Android/android.arch.core.common-1.1.0.jar</file>
@@ -37,6 +41,7 @@
     <file>Assets/Plugins/Android/com.android.support.support-v4-27.1.1.aar</file>
     <file>Assets/Plugins/Android/com.android.support.support-vector-drawable-27.1.1.aar</file>
     <file>Assets/Plugins/Android/com.applovin.applovin-sdk-8.1.0.jar</file>
+    <file>Assets/Plugins/Android/com.github.vungle.vungle-android-sdk-6.3.17.aar</file>
     <file>Assets/Plugins/Android/com.google.android.gms.play-services-ads-15.0.1.aar</file>
     <file>Assets/Plugins/Android/com.google.android.gms.play-services-ads-base-15.0.1.aar</file>
     <file>Assets/Plugins/Android/com.google.android.gms.play-services-ads-identifier-15.0.1.aar</file>
@@ -50,13 +55,26 @@
     <file>Assets/Plugins/Android/com.google.android.gms.play-services-places-placereport-15.0.1.aar</file>
     <file>Assets/Plugins/Android/com.google.android.gms.play-services-stats-15.0.1.aar</file>
     <file>Assets/Plugins/Android/com.google.android.gms.play-services-tasks-15.0.1.aar</file>
+    <file>Assets/Plugins/Android/com.google.code.gson.gson-2.7.jar</file>
     <file>Assets/Plugins/Android/com.maio.android-sdk-1.1.6.aar</file>
-    <file>Assets/Plugins/Android/jp.co.geniee.gnadsdk.GNAdSDK-4.0.0.aar</file>
-    <file>Assets/Plugins/Android/jp.co.geniee.gnsfullscreeninterstitialadapter.GNSFullscreenInterstitialAdapter-1.0.0.aar</file>
-    <file>Assets/Plugins/Android/jp.co.geniee.gnsfullscreeninterstitialadapter.GNSFullscreenInterstitialAdapter-AppLovin-1.0.0.aar</file>
-    <file>Assets/Plugins/Android/jp.co.geniee.gnsfullscreeninterstitialadapter.GNSFullscreenInterstitialAdapter-Maio-1.0.0.aar</file>
-    <file>Assets/Plugins/Android/jp.co.geniee.gnsfullscreeninterstitialadapter.GNSFullscreenInterstitialAdapter-Nend-1.0.0.aar</file>
-    <file>Assets/Plugins/Android/jp.co.geniee.gnsfullscreeninterstitialadapter.GNSFullscreenInterstitialAdapter-Zucks-1.0.0.aar</file>
+    <file>Assets/Plugins/Android/com.squareup.okhttp3.logging-interceptor-3.7.0.jar</file>
+    <file>Assets/Plugins/Android/com.squareup.okhttp3.okhttp-3.7.0.jar</file>
+    <file>Assets/Plugins/Android/com.squareup.okio.okio-1.12.0.jar</file>
+    <file>Assets/Plugins/Android/com.squareup.retrofit2.converter-gson-2.2.0.jar</file>
+    <file>Assets/Plugins/Android/com.squareup.retrofit2.retrofit-2.2.0.jar</file>
+    <file>Assets/Plugins/Android/com.tapjoy.tapjoy-android-sdk-12.0.0.aar</file>
+    <file>Assets/Plugins/Android/com.tonyodev.fetch.fetch-1.1.5.aar</file>
+    <file>Assets/Plugins/Android/com.unity3d.ads.unity-ads-2.3.0.aar</file>
+    <file>Assets/Plugins/Android/jp.co.geniee.gnadsdk.GNAdSDK-5.1.0.aar</file>
+    <file>Assets/Plugins/Android/jp.co.geniee.gnsfullscreeninterstitialadapter.GNSFullscreenInterstitialAdapter-2.0.0.aar</file>
+    <file>Assets/Plugins/Android/jp.co.geniee.gnsfullscreeninterstitialadapter.GNSFullscreenInterstitialAdapter-AppLovin-2.0.0.aar</file>
+    <file>Assets/Plugins/Android/jp.co.geniee.gnsfullscreeninterstitialadapter.GNSFullscreenInterstitialAdapter-Imobile-2.0.0.aar</file>
+    <file>Assets/Plugins/Android/jp.co.geniee.gnsfullscreeninterstitialadapter.GNSFullscreenInterstitialAdapter-Maio-2.0.0.aar</file>
+    <file>Assets/Plugins/Android/jp.co.geniee.gnsfullscreeninterstitialadapter.GNSFullscreenInterstitialAdapter-Nend-2.0.0.aar</file>
+    <file>Assets/Plugins/Android/jp.co.geniee.gnsfullscreeninterstitialadapter.GNSFullscreenInterstitialAdapter-Tapjoy-2.0.0.aar</file>
+    <file>Assets/Plugins/Android/jp.co.geniee.gnsfullscreeninterstitialadapter.GNSFullscreenInterstitialAdapter-UnityAds-2.0.0.aar</file>
+    <file>Assets/Plugins/Android/jp.co.geniee.gnsfullscreeninterstitialadapter.GNSFullscreenInterstitialAdapter-Vungle-2.0.0.aar</file>
+    <file>Assets/Plugins/Android/jp.co.geniee.gnsfullscreeninterstitialadapter.GNSFullscreenInterstitialAdapter-Zucks-2.0.0.aar</file>
     <file>Assets/Plugins/Android/net.nend.android.nend-sdk-5.0.2.aar</file>
     <file>Assets/Plugins/Android/net.zucks.zucks-ad-network-sdk-4.6.1.jar</file>
   </files>

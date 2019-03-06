@@ -119,17 +119,17 @@
     </androidPackage>
 
     <!-- GNAdSDK -->
-    <androidPackage spec="jp.co.geniee.gnadsdk:GNAdSDK:4.0.0">
-    <androidSdkPackageIds>
-        <androidSdkPackageId>extra-geniee-repository</androidSdkPackageId>
-      </androidSdkPackageIds>
-      <repositories>
-        <repository>https://raw.github.com/geniee-ssp/Geniee-Android-SDK/master/repository</repository>
-      </repositories>
+    <androidPackage spec="jp.co.geniee.gnadsdk:GNAdSDK:5.1.0">
+        <androidSdkPackageIds>
+            <androidSdkPackageId>extra-geniee-repository</androidSdkPackageId>
+        </androidSdkPackageIds>
+        <repositories>
+            <repository>https://raw.github.com/geniee-ssp/Geniee-Android-SDK/master/repository</repository>
+        </repositories>
     </androidPackage>
 
     <!-- GNAdDFPFullscreenInterstitialMediationAdapter -->
-    <androidPackage spec="jp.co.geniee.gnaddfpfullscreeninterstitialmediationadapter:GNAdDFPFullscreenInterstitialMediationAdapter:4.0.0.0">
+    <androidPackage spec="jp.co.geniee.gnaddfpfullscreeninterstitialmediationadapter:GNAdDFPFullscreenInterstitialMediationAdapter:5.1.0.0">
         <androidSdkPackageIds>
             <androidSdkPackageId>extra-geniee-repository</androidSdkPackageId>
         </androidSdkPackageIds>
@@ -139,7 +139,7 @@
     </androidPackage>
 
     <!-- GNSFullscreenInterstitialAdapter All ADNW-->
-    <androidPackage spec="jp.co.geniee.gnsfullscreeninterstitialadapter:GNSFullscreenInterstitialAdapter:1.0.0">
+    <androidPackage spec="jp.co.geniee.gnsfullscreeninterstitialadapter:GNSFullscreenInterstitialAdapter:2.0.0">
         <androidSdkPackageIds>
             <androidSdkPackageId>extra-geniee-repository</androidSdkPackageId>
         </androidSdkPackageIds>
@@ -149,11 +149,11 @@
             <repository>http://fan-adn.github.io/nendSDK-Android-lib/library/</repository>
             <repository>https://imobile-maio.github.io/maven/</repository>
             <repository>https://github.com/zucks/ZucksAdNetworkSDK-Maven/raw/master/</repository>
+            <repository>https://jitpack.io/</repository>    
         </repositories>
     </androidPackage>
 
-    <!-- GNSFullscreenInterstitialAdapter -->
-    <androidPackage spec="jp.co.geniee.gnsfullscreeninterstitialadapter:GNSFullscreenInterstitialAdapter-AppLovin:1.0.0">
+    <androidPackage spec="jp.co.geniee.gnsfullscreeninterstitialadapter:GNSFullscreenInterstitialAdapter-AppLovin:2.0.0">
         <androidSdkPackageIds>
             <androidSdkPackageId>extra-geniee-repository</androidSdkPackageId>
         </androidSdkPackageIds>
@@ -162,7 +162,7 @@
         </repositories>
     </androidPackage>
 
-    <androidPackage spec="jp.co.geniee.gnsfullscreeninterstitialadapter:GNSFullscreenInterstitialAdapter-Maio:1.0.0">
+    <androidPackage spec="jp.co.geniee.gnsfullscreeninterstitialadapter:GNSFullscreenInterstitialAdapter-Maio:2.0.0">
         <androidSdkPackageIds>
             <androidSdkPackageId>extra-geniee-repository</androidSdkPackageId>
         </androidSdkPackageIds>
@@ -172,7 +172,7 @@
         </repositories>
     </androidPackage>
 
-   <androidPackage spec="jp.co.geniee.gnsfullscreeninterstitialadapter:GNSFullscreenInterstitialAdapter-Zucks:1.0.0">
+   <androidPackage spec="jp.co.geniee.gnsfullscreeninterstitialadapter:GNSFullscreenInterstitialAdapter-Zucks:2.0.0">
         <androidSdkPackageIds>
             <androidSdkPackageId>extra-geniee-repository</androidSdkPackageId>
         </androidSdkPackageIds>
@@ -182,7 +182,7 @@
         </repositories>
     </androidPackage>
 
-    <androidPackage spec="jp.co.geniee.gnsfullscreeninterstitialadapter:GNSFullscreenInterstitialAdapter-Nend:1.0.0">
+    <androidPackage spec="jp.co.geniee.gnsfullscreeninterstitialadapter:GNSFullscreenInterstitialAdapter-Nend:2.0.0">
         <androidSdkPackageIds>
             <androidSdkPackageId>extra-geniee-repository</androidSdkPackageId>
         </androidSdkPackageIds>
@@ -191,6 +191,44 @@
             <repository>http://fan-adn.github.io/nendSDK-Android-lib/library/</repository>
         </repositories>
     </androidPackage>
+
+    <androidPackage spec="jp.co.geniee.gnsfullscreeninterstitialadapter:GNSFullscreenInterstitialAdapter-Vungle:2.0.0">
+        <androidSdkPackageIds>
+            <androidSdkPackageId>extra-geniee-repository</androidSdkPackageId>
+        </androidSdkPackageIds>
+        <repositories>
+            <repository>https://raw.github.com/geniee-ssp/Geniee-Android-SDK/master/repository</repository>
+            <repository>https://jitpack.io/</repository>
+        </repositories>
+    </androidPackage>
+
+    <androidPackage spec="jp.co.geniee.gnsfullscreeninterstitialadapter:GNSFullscreenInterstitialAdapter-UnityAds:2.0.0">
+        <androidSdkPackageIds>
+            <androidSdkPackageId>extra-geniee-repository</androidSdkPackageId>
+        </androidSdkPackageIds>
+        <repositories>
+            <repository>https://raw.github.com/geniee-ssp/Geniee-Android-SDK/master/repository</repository>
+        </repositories>
+    </androidPackage>
+
+    <androidPackage spec="jp.co.geniee.gnsfullscreeninterstitialadapter:GNSFullscreenInterstitialAdapter-Tapjoy:2.0.0">
+        <androidSdkPackageIds>
+            <androidSdkPackageId>extra-geniee-repository</androidSdkPackageId>
+        </androidSdkPackageIds>
+        <repositories>
+            <repository>https://raw.github.com/geniee-ssp/Geniee-Android-SDK/master/repository</repository>
+        </repositories>
+    </androidPackage>
+
+    <androidPackage spec="jp.co.geniee.gnsfullscreeninterstitialadapter:GNSFullscreenInterstitialAdapter-Imobile:2.0.0">
+        <androidSdkPackageIds>
+            <androidSdkPackageId>extra-geniee-repository</androidSdkPackageId>
+        </androidSdkPackageIds>
+        <repositories>
+            <repository>https://raw.github.com/geniee-ssp/Geniee-Android-SDK/master/repository</repository>
+        </repositories>
+    </androidPackage> 
+
   </androidPackages>
  
   <!-- iOS Cocoapod dependencies can be specified by each iosPod element. -->
@@ -229,6 +267,12 @@
     <iosPod name="NendSDK_iOS" version="~> 5.0.2" />
 
     <iosPod name="ZucksAdNetworkSDK" version="~> 4.7.8"/>
+
+    <iosPod name="TapjoySDK" version="~> 12.0.0" />   
+        
+    <iosPod name="VungleSDK-iOS" version="~> 6.2.0" />
+        
+    <iosPod name="UnityAds" version="~> 2.3.0" /> 
 
     <iosPod name="Geniee-iOS-SDK" />
     <iosPod name="Geniee-DFP-Mediation-FullscreenInterstitial-Adapter" />
