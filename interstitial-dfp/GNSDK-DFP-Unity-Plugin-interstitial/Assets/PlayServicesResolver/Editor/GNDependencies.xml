@@ -129,7 +129,7 @@
     </androidPackage>
 
     <!-- GNAdDFPFullscreenInterstitialMediationAdapter -->
-    <androidPackage spec="jp.co.geniee.gnaddfpfullscreeninterstitialmediationadapter:GNAdDFPFullscreenInterstitialMediationAdapter:5.0.0.0">
+    <androidPackage spec="jp.co.geniee.gnaddfpfullscreeninterstitialmediationadapter:GNAdDFPFullscreenInterstitialMediationAdapter:5.1.0.0">
         <androidSdkPackageIds>
             <androidSdkPackageId>extra-geniee-repository</androidSdkPackageId>
         </androidSdkPackageIds>
