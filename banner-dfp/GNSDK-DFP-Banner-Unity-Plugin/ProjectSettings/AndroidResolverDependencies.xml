@@ -1,8 +1,8 @@
 <dependencies>
   <packages>
     <package>com.google.android.gms:play-services-ads:15.0.1</package>
-    <package>jp.co.geniee.gnaddfpbannermediationadapter:GNAdDFPBannerMediationAdapter:1.0.0</package>
-    <package>jp.co.geniee.gnadsdk:GNAdSDK:3.2.1</package>
+    <package>jp.co.geniee.gnaddfpbannermediationadapter:GNAdDFPBannerMediationAdapter:4.0.0.0</package>
+    <package>jp.co.geniee.gnadsdk:GNAdSDK:4.0.0</package>
   </packages>
   <files>
     <file>Assets/Plugins/Android/android.arch.core.common-1.0.0.jar</file>
@@ -22,7 +22,7 @@
     <file>Assets/Plugins/Android/com.google.android.gms.play-services-ads-lite-15.0.1.aar</file>
     <file>Assets/Plugins/Android/com.google.android.gms.play-services-basement-15.0.1.aar</file>
     <file>Assets/Plugins/Android/com.google.android.gms.play-services-gass-15.0.1.aar</file>
-    <file>Assets/Plugins/Android/jp.co.geniee.gnaddfpbannermediationadapter.GNAdDFPBannerMediationAdapter-1.0.0.aar</file>
-    <file>Assets/Plugins/Android/jp.co.geniee.gnadsdk.GNAdSDK-3.2.1.aar</file>
+    <file>Assets/Plugins/Android/jp.co.geniee.gnaddfpbannermediationadapter.GNAdDFPBannerMediationAdapter-4.0.0.0.aar</file>
+    <file>Assets/Plugins/Android/jp.co.geniee.gnadsdk.GNAdSDK-4.0.0.aar</file>
   </files>
 </dependencies>
