@@ -55,7 +55,7 @@ static const int defaultAdSizeIdx = 1;
     CGSize adSize =
             CGSizeMake(adSizeList[intAdSize].width, adSizeList[intAdSize].height);
     
-    // Initializes a GNAdView and sets it to the specified frame, size type, and SSP_AppID
+    // Initializes a GNAdView and sets it to the specified frame, size type, and SSP_ZoneID
     _adView = [[[GNAdView alloc] initWithFrame:CGRectMake(0, 0, adSize.width, adSize.height) adSizeType:adSizeType appID:adMobID] autorelease];
     
     // debug level
