@@ -42,7 +42,7 @@ public class GNAdManager : MonoBehaviour
 	private static GNAdManager mInstance = null;
 
     [SerializeField]
-    private string AppID;
+    private string ZoneID;
     [SerializeField]
     private Position position;
     [SerializeField]
@@ -117,23 +117,23 @@ public class GNAdManager : MonoBehaviour
             ipad = isIpadAdMob_();
 #endif
 
-	    if (ipad && AppID != "")
+	    if (ipad && ZoneID != "")
             {
-                install(AppID,
+                install(ZoneID,
                         position,
                         adSize,
 			            logPriority);
             }
             else
             {
-                install(AppID,
+                install(ZoneID,
                         position,
                         adSize,
 			            logPriority);
             }
 
         } else if (Application.platform == RuntimePlatform.Android) {
-            install(AppID,
+            install(ZoneID,
                         position,
                         adSize,
 			            logPriority);

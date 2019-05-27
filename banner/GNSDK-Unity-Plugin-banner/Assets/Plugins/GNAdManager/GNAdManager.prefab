@@ -40,7 +40,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d47039c4989b4f3395df7b8d8690561, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AppID: 
+  ZoneID: 
   position: 0
   adSize: 1
   logPriority: 0
