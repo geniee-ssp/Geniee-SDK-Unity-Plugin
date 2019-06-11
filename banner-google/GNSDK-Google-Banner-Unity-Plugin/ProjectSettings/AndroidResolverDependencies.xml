@@ -1,0 +1,8 @@
+<dependencies>
+  <packages>
+    <package>com.google.android.gms:play-services-ads:17.2.0</package>
+    <package>jp.co.geniee.gnadgooglemediationadapter:GNAdGoogleMediationAdapter:5.1.4.1</package>
+    <package>jp.co.geniee.gnadsdk:GNAdSDK:5.1.4</package>
+  </packages>
+  <files />
+</dependencies>
