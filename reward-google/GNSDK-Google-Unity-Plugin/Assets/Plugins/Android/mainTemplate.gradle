@@ -30,10 +30,10 @@ allprojects {
             url "https://maven.google.com" // Assets/PlayServicesResolver/Editor/GNDependencies.xml:74, Assets/PlayServicesResolver/Editor/GNDependencies.xml:36, Assets/PlayServicesResolver/Editor/GNDependencies.xml:55, Assets/PlayServicesResolver/Editor/GNDependencies.xml:85, Assets/PlayServicesResolver/Editor/GNDependencies.xml:96, Assets/PlayServicesResolver/Editor/GNDependencies.xml:108, Assets/PlayServicesResolver/Editor/GNDependencies.xml:119
         }
         maven {
-            url "https://raw.github.com/geniee-ssp/Geniee-Android-SDK/master/repository" // Assets/PlayServicesResolver/Editor/GNDependencies.xml:129, Assets/PlayServicesResolver/Editor/GNDependencies.xml:139, Assets/PlayServicesResolver/Editor/GNDependencies.xml:153, Assets/PlayServicesResolver/Editor/GNDependencies.xml:163, Assets/PlayServicesResolver/Editor/GNDependencies.xml:172, Assets/PlayServicesResolver/Editor/GNDependencies.xml:181, Assets/PlayServicesResolver/Editor/GNDependencies.xml:190, Assets/PlayServicesResolver/Editor/GNDependencies.xml:200, Assets/PlayServicesResolver/Editor/GNDependencies.xml:210, Assets/PlayServicesResolver/Editor/GNDependencies.xml:219, Assets/PlayServicesResolver/Editor/GNDependencies.xml:228, Assets/PlayServicesResolver/Editor/GNDependencies.xml:238
+            url "https://raw.github.com/geniee-ssp/Geniee-Android-SDK/master/repository" // Assets/PlayServicesResolver/Editor/GNDependencies.xml:129, Assets/PlayServicesResolver/Editor/GNDependencies.xml:139, Assets/PlayServicesResolver/Editor/GNDependencies.xml:153, Assets/PlayServicesResolver/Editor/GNDependencies.xml:163, Assets/PlayServicesResolver/Editor/GNDependencies.xml:172, Assets/PlayServicesResolver/Editor/GNDependencies.xml:181, Assets/PlayServicesResolver/Editor/GNDependencies.xml:190, Assets/PlayServicesResolver/Editor/GNDependencies.xml:200, Assets/PlayServicesResolver/Editor/GNDependencies.xml:210, Assets/PlayServicesResolver/Editor/GNDependencies.xml:219, Assets/PlayServicesResolver/Editor/GNDependencies.xml:228, Assets/PlayServicesResolver/Editor/GNDependencies.xml:238, Assets/PlayServicesResolver/Editor/GNDependencies.xml:248
         }
         maven {
-            url "https://jitpack.io/" // Assets/PlayServicesResolver/Editor/GNDependencies.xml:153, Assets/PlayServicesResolver/Editor/GNDependencies.xml:238
+            url "https://jitpack.io/" // Assets/PlayServicesResolver/Editor/GNDependencies.xml:153, Assets/PlayServicesResolver/Editor/GNDependencies.xml:238, Assets/PlayServicesResolver/Editor/GNDependencies.xml:248
         }
         maven {
             url "https://adcolony.bintray.com/AdColony/" // Assets/PlayServicesResolver/Editor/GNDependencies.xml:163, Assets/PlayServicesResolver/Editor/GNDependencies.xml:153
@@ -65,16 +65,17 @@ dependencies {
     compile 'com.google.android.gms:play-services-location:16.0.0' // Assets/PlayServicesResolver/Editor/GNDependencies.xml:36
     compile 'jp.co.geniee.gnadgooglemediationadapter:GNAdGoogleMediationAdapter:5.1.4.1' // Assets/PlayServicesResolver/Editor/GNDependencies.xml:139
     compile 'jp.co.geniee.gnadsdk:GNAdSDK:5.1.4' // Assets/PlayServicesResolver/Editor/GNDependencies.xml:129
-    compile 'jp.co.geniee.gnsrewardadapter:GNSRewardAdapter:3.0.1' // Assets/PlayServicesResolver/Editor/GNDependencies.xml:153
-    compile 'jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-AdColony:3.0.1' // Assets/PlayServicesResolver/Editor/GNDependencies.xml:163
-    compile 'jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-Amoad:3.0.1' // Assets/PlayServicesResolver/Editor/GNDependencies.xml:172
-    compile 'jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-AppLovin:3.0.1' // Assets/PlayServicesResolver/Editor/GNDependencies.xml:181
-    compile 'jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-CAReward:3.0.1' // Assets/PlayServicesResolver/Editor/GNDependencies.xml:190
-    compile 'jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-Maio:3.0.1' // Assets/PlayServicesResolver/Editor/GNDependencies.xml:200
-    compile 'jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-Nend:3.0.1' // Assets/PlayServicesResolver/Editor/GNDependencies.xml:210
-    compile 'jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-Tapjoy:3.0.1' // Assets/PlayServicesResolver/Editor/GNDependencies.xml:219
-    compile 'jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-UnityAds:3.0.1' // Assets/PlayServicesResolver/Editor/GNDependencies.xml:228
-    compile 'jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-Vungle:3.0.1' // Assets/PlayServicesResolver/Editor/GNDependencies.xml:238
+    compile 'jp.co.geniee.gnsrewardadapter:GNSRewardAdapter:4.0.0' // Assets/PlayServicesResolver/Editor/GNDependencies.xml:153
+    compile 'jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-AdColony:4.0.0' // Assets/PlayServicesResolver/Editor/GNDependencies.xml:163
+    compile 'jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-Amoad:4.0.0' // Assets/PlayServicesResolver/Editor/GNDependencies.xml:172
+    compile 'jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-AppLovin:4.0.0' // Assets/PlayServicesResolver/Editor/GNDependencies.xml:181
+    compile 'jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-CAReward:4.0.0' // Assets/PlayServicesResolver/Editor/GNDependencies.xml:190
+    compile 'jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-Maio:4.0.0' // Assets/PlayServicesResolver/Editor/GNDependencies.xml:200
+    compile 'jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-Nend:4.0.0' // Assets/PlayServicesResolver/Editor/GNDependencies.xml:210
+    compile 'jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-Tapjoy:4.0.0' // Assets/PlayServicesResolver/Editor/GNDependencies.xml:219
+    compile 'jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-TikTok:4.0.0' // Assets/PlayServicesResolver/Editor/GNDependencies.xml:248
+    compile 'jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-UnityAds:4.0.0' // Assets/PlayServicesResolver/Editor/GNDependencies.xml:228
+    compile 'jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-Vungle:4.0.0' // Assets/PlayServicesResolver/Editor/GNDependencies.xml:238
 // Android Resolver Dependencies End
 **DEPS**}
 
