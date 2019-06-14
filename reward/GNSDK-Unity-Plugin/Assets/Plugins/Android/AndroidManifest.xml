@@ -79,6 +79,13 @@
 		<!-- Amoad -->
         <!--<activity android:name="com.amoad.AMoAdInterstitialVideoActivity"
 				  android:theme="@style/Theme.AppCompat"/>-->
+
+        <!-- TikTok -->
+        <!--<provider
+            android:name="com.bytedance.sdk.openadsdk.multipro.TTMultiProvider"
+            android:authorities="${applicationId}.TTMultiProvider"
+            android:exported="false" />-->
+
 	       
     </application>
     <uses-permission android:name="android.permission.INTERNET" />
@@ -86,4 +93,5 @@
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
 </manifest>
