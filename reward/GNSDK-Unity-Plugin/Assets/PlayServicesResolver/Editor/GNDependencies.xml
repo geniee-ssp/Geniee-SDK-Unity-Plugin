@@ -226,6 +226,15 @@
         </repositories>
     </androidPackage>
 
+    <androidPackage spec="jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-TikTok:4.0.0">
+        <androidSdkPackageIds>
+            <androidSdkPackageId>extra-geniee-repository</androidSdkPackageId>
+        </androidSdkPackageIds>
+        <repositories>
+            <repository>https://raw.github.com/geniee-ssp/Geniee-Android-SDK/master/repository</repository>
+        </repositories>
+    </androidPackage>
+
   </androidPackages>
 
   <!-- iOS Cocoapod dependencies can be specified by each iosPod element. -->
