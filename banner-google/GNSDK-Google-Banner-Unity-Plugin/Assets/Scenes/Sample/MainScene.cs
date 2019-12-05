@@ -5,19 +5,18 @@ using System.Collections.Generic;
 using GoogleMobileAds.Api;
 
 
-public class MainScene : MonoBehaviour
-{
+public class MainScene : MonoBehaviour {
 
-    #region public properties
+#region public properties
     public InputField inputField;
     public Dropdown adSizeDropdown;
     public Dropdown adPositionDropdown;
     public Toggle customToggle;
     public InputField customWidthText;
     public InputField customHeightText;
-    #endregion
+#endregion
 
-    #region private properties
+#region private properties
     BannerView bannerView;
     AdSize adSize = AdSize.Banner;
     List<AdSize> adSizes = new List<AdSize>();
@@ -26,10 +25,9 @@ public class MainScene : MonoBehaviour
     string adUnitIdKey = "AdUnitIdKey";
     string adUnitId = "";
 
-    #endregion
+#endregion
     // Use this for initialization
-    void Start()
-    {
+    void Start () {
         adSizeDropdown.onValueChanged.AddListener(delegate {
             AdSizeDropdownValueChanged(adSizeDropdown);
         });
@@ -50,8 +48,7 @@ public class MainScene : MonoBehaviour
         InitAdSizeDropdown();
         InitAdPositionDropdown();
     }
-    void InitAdSizeDropdown()
-    {
+    void InitAdSizeDropdown() {
         adSizes.Add(AdSize.Banner);
         adSizes.Add(AdSize.MediumRectangle);
         adSizes.Add(AdSize.IABBanner);
@@ -63,13 +60,10 @@ public class MainScene : MonoBehaviour
         {
             Dropdown.OptionData optionData;
             optionData = new Dropdown.OptionData();
-            if (ad.IsSmartBanner == true)
-            {
+            if (ad.AdType.Equals(AdSize.Type.SmartBanner)) {
                 optionData.text = "SmartBanner";
                 optionMessages.Add(optionData);
-            }
-            else
-            {
+            } else {
                 optionData.text = ad.Width + "x" + ad.Height;
                 optionMessages.Add(optionData);
             }
@@ -104,12 +98,11 @@ public class MainScene : MonoBehaviour
         }
         adPositionDropdown.value = adPositions.IndexOf(adPosition);
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
+	
+	// Update is called once per frame
+	void Update () {
+		
+	}
 
     void OnApplicationQuit()
     {
@@ -118,7 +111,7 @@ public class MainScene : MonoBehaviour
         {
             ManageScrollContent.Logging("bannerView destory");
             this.bannerView.Destroy();
-        }
+        }   
     }
     string GetDefaultAdUnitId()
     {
@@ -126,7 +119,7 @@ public class MainScene : MonoBehaviour
 #if UNITY_ANDROID
         defaultAdUnitId = "ここにAdUnitIdを入れてください";
 #elif UNITY_IPHONE
-        defaultAdUnitId = "ここにAdUnitIdを入れてください";
+        defaultAdUnitId = "ca-app-pub-7601958318599892/4198203453";
 #else 
         defaultAdUnitId = "ここにAdUnitIdを入れてください";
 #endif
@@ -153,12 +146,11 @@ public class MainScene : MonoBehaviour
                 int.Parse(customHeightText.text)
             );
         }
-        if (size.IsSmartBanner)
+
+        if (size.AdType.Equals(AdSize.Type.SmartBanner))
         {
             ManageScrollContent.Logging("AdSize=SmartBanner");
-        }
-        else
-        {
+        } else {
             ManageScrollContent.Logging("AdSize=" + size.Width + "x" + size.Height);
         }
         bannerView = new BannerView(adUnitId, size, adPosition);
@@ -174,10 +166,10 @@ public class MainScene : MonoBehaviour
         bannerView.OnAdLeavingApplication += HandleOnAdLeavingApplication;
 
         // Create an empty ad request.
-        AdRequest adRequest = new AdRequest.Builder().
+        AdRequest adRequest = new AdRequest.Builder()
                                            //Please enter your test device ID
-                                           //AddTestDevice("ADD_YOUR_TEST_DEVICE").
-                                           Build();
+                                           //.AddTestDevice("YOUR_DEVICE_ID")
+                                           .Build();
         // Load the banner with the request.
         bannerView.LoadAd(adRequest);
     }
@@ -220,15 +212,15 @@ public class MainScene : MonoBehaviour
     {
         if (customToggle.isOn)
         {
-            adSizeDropdown.transform.localPosition = new Vector3(-120f, 976f, 0f); // hidden
-            customWidthText.transform.localPosition = new Vector3(-274f, 425f, 0f); // show
-            customHeightText.transform.localPosition = new Vector3(-86f, 425f, 0f); // show
+            adSizeDropdown.transform.localPosition = new Vector3(adSizeDropdown.transform.localPosition.x, 976f, 0f); // hidden
+            customWidthText.transform.localPosition = new Vector3(customWidthText.transform.localPosition.x, 425f, 0f); // show
+            customHeightText.transform.localPosition = new Vector3(customHeightText.transform.localPosition.x, 425f, 0f); // show
         }
         else
         {
-            adSizeDropdown.transform.localPosition = new Vector3(-120f, 425f, 0f); // show
-            customWidthText.transform.localPosition = new Vector3(-274f, 976f, 0f); // hidden
-            customHeightText.transform.localPosition = new Vector3(-86f, 976f, 0f); // hidden
+            adSizeDropdown.transform.localPosition = new Vector3(adSizeDropdown.transform.localPosition.x, 425f, 0f); // show
+            customWidthText.transform.localPosition = new Vector3(customWidthText.transform.localPosition.x, 976f, 0f); // hidden
+            customHeightText.transform.localPosition = new Vector3(customHeightText.transform.localPosition.x, 976f, 0f); // hidden
         }
     }
 }

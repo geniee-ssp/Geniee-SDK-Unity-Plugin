@@ -29,7 +29,7 @@ public class MainSceneScript : MonoBehaviour
     {
         string defaultUnitId = "";
 #if UNITY_ANDROID
-        defaultUnitId = "ここにUnitIdを入れてください";
+        defaultUnitId = "";
 #elif UNITY_IPHONE
         defaultUnitId = "ここにUnitIdを入れてください";
 #endif
@@ -44,7 +44,9 @@ public class MainSceneScript : MonoBehaviour
         Debug.Log("adUnitIdDefault input=" + adUnitId);
 
         interstitialAd = new InterstitialAd(adUnitId);
-        AdRequest request = new AdRequest.Builder().Build();
+        AdRequest request =  new AdRequest.Builder()
+                               //.AddTestDevice("YOUR_DEVICE_ID")
+                               .Build();
         interstitialAd.LoadAd(request);
         interstitialAd.OnAdLoaded += HandleOnAdLoaded;
         interstitialAd.OnAdFailedToLoad += HandleOnAdFailedToLoad;

@@ -15,17 +15,7 @@
 
          Additional repositories can be added using the "repositories" element.
     -->
-
-   <!--<androidPackage spec="com.google.android.gms:play-services-location:15.0.1">
-      <androidSdkPackageIds>
-        <androidSdkPackageId>extra-google-m2repository</androidSdkPackageId>
-      </androidSdkPackageIds>
-      <repositories>
-        <repository>https://maven.google.com</repository>
-      </repositories>
-    </androidPackage>-->
-
-    <androidPackage spec="com.google.android.gms:play-services-ads:17.2.0">
+    <androidPackage spec="com.google.android.gms:play-services-location:17.0.0">
       <androidSdkPackageIds>
         <androidSdkPackageId>extra-google-m2repository</androidSdkPackageId>
       </androidSdkPackageIds>
@@ -33,9 +23,17 @@
         <repository>https://maven.google.com</repository>
       </repositories>
     </androidPackage>
+
+    <androidPackage spec="androidx.multidex:multidex:2.0.1">
+    <androidSdkPackageIds>
+        <androidSdkPackageId>extra-google-m2repository</androidSdkPackageId>
+      </androidSdkPackageIds>
+      <repositories>
+        <repository>https://maven.google.com</repository>
+      </repositories>
+    </androidPackage>
         
-	<!-- GNAdSDK -->
-    <androidPackage spec="jp.co.geniee.gnadsdk:GNAdSDK:5.1.4">
+    <androidPackage spec="jp.co.geniee.gnadsdk:GNAdSDK:6.2.0">
     <androidSdkPackageIds>
         <androidSdkPackageId>extra-geniee-repository</androidSdkPackageId>
       </androidSdkPackageIds>
@@ -44,8 +42,7 @@
       </repositories>
     </androidPackage>
 
-    <!-- GNAdDFPBannerMediationAdapter -->
-    <androidPackage spec="jp.co.geniee.gnadgooglemediationadapter:GNAdGoogleMediationAdapter:5.1.4.1">
+    <androidPackage spec="jp.co.geniee.gnadgooglemediationadapter:GNAdGoogleMediationAdapter:6.2.0.0">
     <androidSdkPackageIds>
         <androidSdkPackageId>extra-geniee-repository</androidSdkPackageId>
       </androidSdkPackageIds>
@@ -70,17 +67,6 @@
            generated Xcode project.  This is "true" by default.
          * "minTargetSdk" (optional)
            The minimum iOS SDK required by this Cocoapod. -->
-    <iosPod name="Google-Mobile-Ads-SDK" version="~> 7.0" bitcodeEnabled="true"
-            minTargetSdk="6.0">
-      <!-- Set of source URIs to search for this Cocoapod spec.
-           By default Cocoapods will attempt to fetch the pod specs from:
-           * $HOME/.cocoapods/repos
-           * https://github.com/CocoaPods/Specs
-           -->
-      <sources>
-        <source>https://github.com/CocoaPods/Specs</source>
-      </sources>
-    </iosPod>
         
     <iosPod name="Geniee-iOS-SDK" />
     <iosPod name="Geniee-Google-Mediation-Adapter" />

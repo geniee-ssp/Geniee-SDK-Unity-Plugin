@@ -1,10 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" android:installLocation="preferExternal" android:versionCode="1" android:versionName="1.0" package="jp.co.geniee.GNSUnitySampleGoogleRewardVideo">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" android:installLocation="preferExternal">
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-  <uses-permission android:name="android.permission.INTERNET" />
-  <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-  <uses-permission android:name="android.permission.WAKE_LOCK" />
-
   <supports-screens android:smallScreens="true" android:normalScreens="true" android:largeScreens="true" android:xlargeScreens="true" android:anyDensity="true" />
   <application android:theme="@style/UnityThemeSelector" android:icon="@drawable/app_icon" android:label="@string/app_name" android:debuggable="true">
     <activity android:name="jp.co.geniee.utgnsrewardvideo.ExtendsDfpUnityPlayerActivity" android:label="@string/app_name" android:configChanges="orientation|keyboardHidden|screenSize">
@@ -23,22 +19,12 @@
     </activity>
     <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
     <meta-data android:name="jp.co.geniee.gnadsdk.rewardvideo.gnslogger.priority" android:value="DEBUG" />
-    <meta-data android:name="com.google.android.gms.ads.APPLICATION_ID" android:value="YOUR_ADMOB_APP_ID" />
-    <meta-data android:name="com.google.android.gms.ads.AD_MANAGER_APP" android:value="true" />
-    <meta-data android:name="jp.co.geniee.gnadsdk.common.gnadlogger.priority"
-        android:value="INFO" />
-
-
+    <meta-data android:name="jp.co.geniee.gnadsdk.common.gnadlogger.priority" android:value="INFO" />
     <!-- AppLovin -->
     <!--<meta-data
              android:name="applovin.sdk.key"
              android:value="YOUR_APPLOVIN_SDK_KEY_HERE" />-->
-
     <!-- TikTok -->
-    <!--<provider
-        android:name="com.bytedance.sdk.openadsdk.multipro.TTMultiProvider"
-        android:authorities="${applicationId}.TTMultiProvider"
-        android:exported="false" />-->
-
+    <provider android:name="com.bytedance.sdk.openadsdk.multipro.TTMultiProvider" android:authorities="jp.co.geniee.GNSUnitySampleGoogleRewardVideo.TTMultiProvider" android:exported="false" />
   </application>
 </manifest>
