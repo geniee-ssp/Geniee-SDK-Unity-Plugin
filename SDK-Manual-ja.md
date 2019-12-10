@@ -3,12 +3,12 @@
 Geniee SDK Unity Plugin は、Unity アプリケーション内に広告を表示するための SDK Plugin です。
 
 以下のフォーマットに対応しています。
-- [バナー広告とは](https://github.com/geniee-ssp/Geniee-SDK-Unity-Plugin/wiki/Banner-Readme)
-- [DFPバナーメディエーション広告とは](https://github.com/geniee-ssp/Geniee-SDK-Unity-Plugin/wiki/Banner-Readme_DFP)
-- [動画リワード広告](https://github.com/geniee-ssp/Geniee-SDK-Unity-Plugin/wiki/RewardVideo-Readme)
-- [DFP動画リワードメディエーション広告](https://github.com/geniee-ssp/Geniee-SDK-Unity-Plugin/wiki/RewardVideo-Readme_DFP)
-- [全画面インタースティシャル広告](https://github.com/geniee-ssp/Geniee-SDK-Unity-Plugin/wiki/FullscreenInterstitial-Readme)
-- [DFP全画面インタースティシャルメディエーション広告](https://github.com/geniee-ssp/Geniee-SDK-Unity-Plugin/wiki/FullscreenInterstitial-Readme_DFP)
+- バナー広告
+- GoogleMobileAdsバナーメディエーション広告
+- 動画リワード広告
+- GoogleMobileAds動画リワードメディエーション広告
+- 全画面インタースティシャル広告
+- GoogleMobileAds全画面インタースティシャルメディエーション広告
 
 ## ダウンロード
 
@@ -19,9 +19,11 @@ Geniee SDK Unity Plugin は、Unity アプリケーション内に広告を表�
 ## 組み込み手順
 
 組み込み手順は、以下のドキュメントを参照してください。  
-<https://github.com/geniee-ssp/Geniee-SDK-Unity-Plugin/wiki>
+<https://developers.geniee.co.jp/unity/>
 
-## バージョン新機能
 
-[変更履歴](CHANGELOG.md) を参照してください。
+## バージョン
+
+- **[Log](https://github.com/geniee-ssp/Geniee-SDK-Unity-Plugin/releases)**
+
 
