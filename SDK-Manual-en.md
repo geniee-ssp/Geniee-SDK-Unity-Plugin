@@ -21,7 +21,6 @@ Download the Geniee SDK Unity Plugin from the following URL.
 Built-in procedures, please refer to the following document.
 <Https://github.com/geniee-ssp/Geniee-SDK-Unity-Plugin/wiki>
 
-## What's New in Version
+## Version
 
-Please refer to [Change History] (CHANGELOG.md).
-
+- **[Log](https://github.com/geniee-ssp/Geniee-SDK-Unity-Plugin/releases)**
