@@ -19,7 +19,7 @@ Geniee SDK Unity Plugin は、Unity アプリケーション内に広告を表�
 ## 組み込み手順
 
 組み込み手順は、以下のドキュメントを参照してください。  
-<https://github.com/geniee-ssp/Geniee-SDK-Unity-Plugin/wiki>
+<https://developers.geniee.co.jp/unity/>
 
 
 ## バージョン
