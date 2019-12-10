@@ -14,7 +14,7 @@ It supports the following format.
 
 Download the Geniee SDK Unity Plugin from the following URL.
 
-- ** [Geniee-SDK-Unity-Plugin] (https://github.com/geniee-ssp/Geniee-SDK-Unity-Plugin/releases) **
+- **[Geniee-SDK-Unity-Plugin](https://github.com/geniee-ssp/Geniee-SDK-Unity-Plugin/releases)**
 
 ## built-in procedure
 
