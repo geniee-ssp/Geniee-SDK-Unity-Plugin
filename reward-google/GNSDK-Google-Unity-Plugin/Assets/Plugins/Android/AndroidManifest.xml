@@ -24,7 +24,5 @@
     <!--<meta-data
              android:name="applovin.sdk.key"
              android:value="YOUR_APPLOVIN_SDK_KEY_HERE" />-->
-    <!-- TikTok -->
-    <provider android:name="com.bytedance.sdk.openadsdk.multipro.TTMultiProvider" android:authorities="jp.co.geniee.GNSUnitySampleGoogleRewardVideo.TTMultiProvider" android:exported="false" />
   </application>
 </manifest>

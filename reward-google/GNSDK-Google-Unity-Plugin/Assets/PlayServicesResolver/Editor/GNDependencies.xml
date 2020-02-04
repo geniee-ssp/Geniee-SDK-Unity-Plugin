@@ -110,7 +110,7 @@
     </androidPackage>
 
     <!-- GNAdSDK -->
-    <androidPackage spec="jp.co.geniee.gnadsdk:GNAdSDK:6.2.0">
+    <androidPackage spec="jp.co.geniee.gnadsdk:GNAdSDK:6.2.1">
     <androidSdkPackageIds>
         <androidSdkPackageId>extra-geniee-repository</androidSdkPackageId>
       </androidSdkPackageIds>
@@ -120,7 +120,7 @@
     </androidPackage>
 
     <!-- GNAdGoogleMediationAdapter -->
-    <androidPackage spec="jp.co.geniee.gnadgooglemediationadapter:GNAdGoogleMediationAdapter:6.2.0.0">
+    <androidPackage spec="jp.co.geniee.gnadgooglemediationadapter:GNAdGoogleMediationAdapter:6.2.1.0">
     <androidSdkPackageIds>
         <androidSdkPackageId>extra-geniee-repository</androidSdkPackageId>
       </androidSdkPackageIds>
@@ -129,7 +129,7 @@
       </repositories>
     </androidPackage>
 
-    <androidPackage spec="jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-AdColony:4.2.0">
+    <androidPackage spec="jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-AdColony:4.2.2">
       <androidSdkPackageIds>
         <androidSdkPackageId>extra-geniee-repository</androidSdkPackageId>
       </androidSdkPackageIds>
@@ -139,7 +139,7 @@
       </repositories>
     </androidPackage>
 
-    <androidPackage spec="jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-Amoad:4.2.0">
+    <androidPackage spec="jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-Amoad:4.2.2">
       <androidSdkPackageIds>
         <androidSdkPackageId>extra-geniee-repository</androidSdkPackageId>
       </androidSdkPackageIds>
@@ -148,7 +148,7 @@
       </repositories>
     </androidPackage>
 
-    <androidPackage spec="jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-AppLovin:4.2.0">
+    <androidPackage spec="jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-AppLovin:4.2.2">
       <androidSdkPackageIds>
         <androidSdkPackageId>extra-geniee-repository</androidSdkPackageId>
       </androidSdkPackageIds>
@@ -157,7 +157,7 @@
       </repositories>
     </androidPackage>
 
-    <androidPackage spec="jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-CAReward:4.2.0">
+    <androidPackage spec="jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-CAReward:4.2.2">
       <androidSdkPackageIds>
         <androidSdkPackageId>extra-geniee-repository</androidSdkPackageId>
       </androidSdkPackageIds>
@@ -166,7 +166,7 @@
       </repositories>
     </androidPackage>
 
-    <androidPackage spec="jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-Maio:4.2.0">
+    <androidPackage spec="jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-Maio:4.2.2">
     <androidSdkPackageIds>
         <androidSdkPackageId>extra-geniee-repository</androidSdkPackageId>
       </androidSdkPackageIds>
@@ -176,7 +176,7 @@
       </repositories>
     </androidPackage>
 
-    <androidPackage spec="jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-Nend:4.2.0">
+    <androidPackage spec="jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-Nend:4.2.2">
       <androidSdkPackageIds>
         <androidSdkPackageId>extra-geniee-repository</androidSdkPackageId>
       </androidSdkPackageIds>
@@ -186,7 +186,7 @@
       </repositories>
     </androidPackage>
 
-    <androidPackage spec="jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-Tapjoy:4.2.0">
+    <androidPackage spec="jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-Tapjoy:4.2.2">
       <androidSdkPackageIds>
         <androidSdkPackageId>extra-geniee-repository</androidSdkPackageId>
       </androidSdkPackageIds>
@@ -195,7 +195,7 @@
       </repositories>
     </androidPackage>
 
-    <androidPackage spec="jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-UnityAds:4.2.0">
+    <androidPackage spec="jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-UnityAds:4.2.2">
     <androidSdkPackageIds>
         <androidSdkPackageId>extra-geniee-repository</androidSdkPackageId>
       </androidSdkPackageIds>
@@ -204,22 +204,13 @@
       </repositories>
     </androidPackage>
     
-    <androidPackage spec="jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-Vungle:4.2.0">
+    <androidPackage spec="jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-Vungle:4.2.2">
     <androidSdkPackageIds>
         <androidSdkPackageId>extra-geniee-repository</androidSdkPackageId>
       </androidSdkPackageIds>
       <repositories>
         <repository>https://raw.github.com/geniee-ssp/Geniee-Android-SDK/master/repository</repository>
       </repositories>
-    </androidPackage>
-        
-    <androidPackage spec="jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-TikTok:4.2.0">
-    <androidSdkPackageIds>
-        <androidSdkPackageId>extra-geniee-repository</androidSdkPackageId>
-    </androidSdkPackageIds>
-    <repositories>
-        <repository>https://raw.github.com/geniee-ssp/Geniee-Android-SDK/master/repository</repository>
-    </repositories>
     </androidPackage>
         
   </androidPackages>
