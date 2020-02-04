@@ -16,7 +16,5 @@
     <meta-data android:name="jp.co.geniee.gnadsdk.rewardvideo.gnslogger.priority" android:value="DEBUG" />
     <!-- AppLovin -->
     <meta-data android:name="applovin.sdk.key" android:value="YOUR_APPLOVIN_SDK_KEY_HERE" />
-    <!-- TikTok -->
-    <provider android:name="com.bytedance.sdk.openadsdk.multipro.TTMultiProvider" android:authorities="jp.co.geniee.GNSUnitySampleRewardVideo.TTMultiProvider" android:exported="false" />
   </application>
 </manifest>
