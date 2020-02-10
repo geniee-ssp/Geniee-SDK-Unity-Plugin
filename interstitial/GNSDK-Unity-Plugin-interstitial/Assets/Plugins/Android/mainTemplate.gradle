@@ -71,15 +71,15 @@ dependencies {
     implementation 'androidx.percentlayout:percentlayout:1.0.0' // Assets/PlayServicesResolver/Editor/GNDependencies.xml:85
     implementation 'com.google.android.gms:play-services-gcm:15.0.1' // Assets/PlayServicesResolver/Editor/GNDependencies.xml:52
     implementation 'com.google.android.gms:play-services-location:15.0.1' // Assets/PlayServicesResolver/Editor/GNDependencies.xml:34
-    implementation 'jp.co.geniee.gnadsdk:GNAdSDK:6.2.0' // Assets/PlayServicesResolver/Editor/GNDependencies.xml:117
-    implementation 'jp.co.geniee.gnsfullscreeninterstitialadapter:GNSFullscreenInterstitialAdapter-AppLovin:2.2.0' // Assets/PlayServicesResolver/Editor/GNDependencies.xml:126
-    implementation 'jp.co.geniee.gnsfullscreeninterstitialadapter:GNSFullscreenInterstitialAdapter-Imobile:2.2.0' // Assets/PlayServicesResolver/Editor/GNDependencies.xml:193
-    implementation 'jp.co.geniee.gnsfullscreeninterstitialadapter:GNSFullscreenInterstitialAdapter-Maio:2.2.0' // Assets/PlayServicesResolver/Editor/GNDependencies.xml:136
-    implementation 'jp.co.geniee.gnsfullscreeninterstitialadapter:GNSFullscreenInterstitialAdapter-Nend:2.2.0' // Assets/PlayServicesResolver/Editor/GNDependencies.xml:156
-    implementation 'jp.co.geniee.gnsfullscreeninterstitialadapter:GNSFullscreenInterstitialAdapter-Tapjoy:2.2.0' // Assets/PlayServicesResolver/Editor/GNDependencies.xml:184
-    implementation 'jp.co.geniee.gnsfullscreeninterstitialadapter:GNSFullscreenInterstitialAdapter-UnityAds:2.2.0' // Assets/PlayServicesResolver/Editor/GNDependencies.xml:175
-    implementation 'jp.co.geniee.gnsfullscreeninterstitialadapter:GNSFullscreenInterstitialAdapter-Vungle:2.2.0' // Assets/PlayServicesResolver/Editor/GNDependencies.xml:166
-    implementation 'jp.co.geniee.gnsfullscreeninterstitialadapter:GNSFullscreenInterstitialAdapter-Zucks:2.2.0' // Assets/PlayServicesResolver/Editor/GNDependencies.xml:146
+    implementation 'jp.co.geniee.gnadsdk:GNAdSDK:6.2.1' // Assets/PlayServicesResolver/Editor/GNDependencies.xml:117
+    implementation 'jp.co.geniee.gnsfullscreeninterstitialadapter:GNSFullscreenInterstitialAdapter-AppLovin:2.2.2' // Assets/PlayServicesResolver/Editor/GNDependencies.xml:126
+    implementation 'jp.co.geniee.gnsfullscreeninterstitialadapter:GNSFullscreenInterstitialAdapter-Imobile:2.2.2' // Assets/PlayServicesResolver/Editor/GNDependencies.xml:193
+    implementation 'jp.co.geniee.gnsfullscreeninterstitialadapter:GNSFullscreenInterstitialAdapter-Maio:2.2.2' // Assets/PlayServicesResolver/Editor/GNDependencies.xml:136
+    implementation 'jp.co.geniee.gnsfullscreeninterstitialadapter:GNSFullscreenInterstitialAdapter-Nend:2.2.2' // Assets/PlayServicesResolver/Editor/GNDependencies.xml:156
+    implementation 'jp.co.geniee.gnsfullscreeninterstitialadapter:GNSFullscreenInterstitialAdapter-Tapjoy:2.2.2' // Assets/PlayServicesResolver/Editor/GNDependencies.xml:184
+    implementation 'jp.co.geniee.gnsfullscreeninterstitialadapter:GNSFullscreenInterstitialAdapter-UnityAds:2.2.2' // Assets/PlayServicesResolver/Editor/GNDependencies.xml:175
+    implementation 'jp.co.geniee.gnsfullscreeninterstitialadapter:GNSFullscreenInterstitialAdapter-Vungle:2.2.2' // Assets/PlayServicesResolver/Editor/GNDependencies.xml:166
+    implementation 'jp.co.geniee.gnsfullscreeninterstitialadapter:GNSFullscreenInterstitialAdapter-Zucks:2.2.2' // Assets/PlayServicesResolver/Editor/GNDependencies.xml:146
 // Android Resolver Dependencies End
 **DEPS**}
 

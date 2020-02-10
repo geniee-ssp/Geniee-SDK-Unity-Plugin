@@ -107,7 +107,7 @@
     </androidPackage>
 
     <!-- GNAdSDK -->
-    <androidPackage spec="jp.co.geniee.gnadsdk:GNAdSDK:6.2.0">
+    <androidPackage spec="jp.co.geniee.gnadsdk:GNAdSDK:6.2.1">
         <androidSdkPackageIds>
             <androidSdkPackageId>extra-geniee-repository</androidSdkPackageId>
         </androidSdkPackageIds>
@@ -116,7 +116,7 @@
         </repositories>
     </androidPackage>
 
-    <androidPackage spec="jp.co.geniee.gnsfullscreeninterstitialadapter:GNSFullscreenInterstitialAdapter-AppLovin:2.2.0">
+    <androidPackage spec="jp.co.geniee.gnsfullscreeninterstitialadapter:GNSFullscreenInterstitialAdapter-AppLovin:2.2.2">
         <androidSdkPackageIds>
             <androidSdkPackageId>extra-geniee-repository</androidSdkPackageId>
         </androidSdkPackageIds>
@@ -125,7 +125,7 @@
         </repositories>
     </androidPackage>
 
-    <androidPackage spec="jp.co.geniee.gnsfullscreeninterstitialadapter:GNSFullscreenInterstitialAdapter-Maio:2.2.0">
+    <androidPackage spec="jp.co.geniee.gnsfullscreeninterstitialadapter:GNSFullscreenInterstitialAdapter-Maio:2.2.2">
         <androidSdkPackageIds>
             <androidSdkPackageId>extra-geniee-repository</androidSdkPackageId>
         </androidSdkPackageIds>
@@ -135,7 +135,7 @@
         </repositories>
     </androidPackage>
 
-   <androidPackage spec="jp.co.geniee.gnsfullscreeninterstitialadapter:GNSFullscreenInterstitialAdapter-Zucks:2.2.0">
+   <androidPackage spec="jp.co.geniee.gnsfullscreeninterstitialadapter:GNSFullscreenInterstitialAdapter-Zucks:2.2.2">
         <androidSdkPackageIds>
             <androidSdkPackageId>extra-geniee-repository</androidSdkPackageId>
         </androidSdkPackageIds>
@@ -145,7 +145,7 @@
         </repositories>
     </androidPackage>
 
-    <androidPackage spec="jp.co.geniee.gnsfullscreeninterstitialadapter:GNSFullscreenInterstitialAdapter-Nend:2.2.0">
+    <androidPackage spec="jp.co.geniee.gnsfullscreeninterstitialadapter:GNSFullscreenInterstitialAdapter-Nend:2.2.2">
         <androidSdkPackageIds>
             <androidSdkPackageId>extra-geniee-repository</androidSdkPackageId>
         </androidSdkPackageIds>
@@ -155,7 +155,7 @@
         </repositories>
     </androidPackage>
 
-    <androidPackage spec="jp.co.geniee.gnsfullscreeninterstitialadapter:GNSFullscreenInterstitialAdapter-Vungle:2.2.0">
+    <androidPackage spec="jp.co.geniee.gnsfullscreeninterstitialadapter:GNSFullscreenInterstitialAdapter-Vungle:2.2.2">
     <androidSdkPackageIds>
         <androidSdkPackageId>extra-geniee-repository</androidSdkPackageId>
     </androidSdkPackageIds>
@@ -165,7 +165,7 @@
     </repositories>
     </androidPackage>
 
-    <androidPackage spec="jp.co.geniee.gnsfullscreeninterstitialadapter:GNSFullscreenInterstitialAdapter-UnityAds:2.2.0">
+    <androidPackage spec="jp.co.geniee.gnsfullscreeninterstitialadapter:GNSFullscreenInterstitialAdapter-UnityAds:2.2.2">
     <androidSdkPackageIds>
         <androidSdkPackageId>extra-geniee-repository</androidSdkPackageId>
     </androidSdkPackageIds>
@@ -174,7 +174,7 @@
     </repositories>
     </androidPackage>
 
-    <androidPackage spec="jp.co.geniee.gnsfullscreeninterstitialadapter:GNSFullscreenInterstitialAdapter-Tapjoy:2.2.0">
+    <androidPackage spec="jp.co.geniee.gnsfullscreeninterstitialadapter:GNSFullscreenInterstitialAdapter-Tapjoy:2.2.2">
     <androidSdkPackageIds>
         <androidSdkPackageId>extra-geniee-repository</androidSdkPackageId>
     </androidSdkPackageIds>
@@ -183,7 +183,7 @@
     </repositories>
     </androidPackage>
 
-    <androidPackage spec="jp.co.geniee.gnsfullscreeninterstitialadapter:GNSFullscreenInterstitialAdapter-Imobile:2.2.0">
+    <androidPackage spec="jp.co.geniee.gnsfullscreeninterstitialadapter:GNSFullscreenInterstitialAdapter-Imobile:2.2.2">
     <androidSdkPackageIds>
         <androidSdkPackageId>extra-geniee-repository</androidSdkPackageId>
     </androidSdkPackageIds>
