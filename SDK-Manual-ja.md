@@ -9,6 +9,7 @@ Geniee SDK Unity Plugin は、Unity アプリケーション内に広告を表�
 - GoogleMobileAds動画リワードメディエーション広告
 - 全画面インタースティシャル広告
 - GoogleMobileAds全画面インタースティシャルメディエーション広告
+- GoogleMobileAdsメディエーション広告(バナー/動画リワード/全画面インタースティシャル)
 
 ## ダウンロード
 

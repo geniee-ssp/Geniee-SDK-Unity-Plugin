@@ -9,6 +9,7 @@ It supports the following format.
 - GoogleMobileAds Video Rewards mediation advertising
 - Fullscreen Interstitial advertising
 - GoogleMobileAds Fullscreen Interstitial mediation advertising
+- GoogleMobileAds Fullscreen Interstitial mediation advertising(Banner/Video Rewards/Fullscreen Interstitial)
 
 ## downloads
 
