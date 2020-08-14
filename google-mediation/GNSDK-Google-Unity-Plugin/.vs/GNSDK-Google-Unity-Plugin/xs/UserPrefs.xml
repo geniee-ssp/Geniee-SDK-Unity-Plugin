@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{EA2C974B-38D5-9515-4D96-5895101045D4}|">
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="GNSDK-Google-Unity-Plugin" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Sample" expanded="True">
+                <Node name="Scripts" expanded="True">
+                  <Node name="RewardScript.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="a5e5de0a-c5f8-4e9b-a485-ad2b30e73578" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
