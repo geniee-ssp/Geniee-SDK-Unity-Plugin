@@ -15,44 +15,6 @@
 
          Additional repositories can be added using the "repositories" element.
     -->
-
-    <androidPackage spec="com.google.android.gms:play-services-location:17.0.0">
-
-      <!-- androidSdkPackageIds is optional and contains the set of Android
-           SDK package manager components (packages) this package requires.
-
-           If the package can't be found in any of the specified repositories,
-           the dependency resolver will attempt to install the set of Android
-           SDK packages specified here and then attempt resolution again.
-      -->
-      <androidSdkPackageIds>
-        <androidSdkPackageId>extra-google-m2repository</androidSdkPackageId>
-      </androidSdkPackageIds>
-      <!-- "repositories" are optional and contain the set of additional
-           repository URIs to search for this package. -->
-      <repositories>
-        <repository>https://maven.google.com</repository>
-      </repositories>
-    </androidPackage>
-
-    <androidPackage spec="com.google.android.gms:play-services-gcm:17.0.0">
-
-      <!-- androidSdkPackageIds is optional and contains the set of Android
-           SDK package manager components (packages) this package requires.
-
-           If the package can't be found in any of the specified repositories,
-           the dependency resolver will attempt to install the set of Android
-           SDK packages specified here and then attempt resolution again.
-      -->
-      <androidSdkPackageIds>
-        <androidSdkPackageId>extra-google-m2repository</androidSdkPackageId>
-      </androidSdkPackageIds>
-      <!-- "repositories" are optional and contain the set of additional
-           repository URIs to search for this package. -->
-      <repositories>
-        <repository>https://maven.google.com</repository>
-      </repositories>
-    </androidPackage>
     
     <androidPackage spec="androidx.appcompat:appcompat:1.1.0">
     <androidSdkPackageIds>
@@ -110,7 +72,7 @@
     </androidPackage>
 
     <!-- GNAdSDK -->
-    <androidPackage spec="jp.co.geniee.gnadsdk:GNAdSDK:6.2.1">
+    <androidPackage spec="jp.co.geniee.gnadsdk:GNAdSDK:8.1.0">
     <androidSdkPackageIds>
         <androidSdkPackageId>extra-geniee-repository</androidSdkPackageId>
       </androidSdkPackageIds>
@@ -120,7 +82,7 @@
     </androidPackage>
 
     <!-- GNAdGoogleMediationAdapter -->
-    <androidPackage spec="jp.co.geniee.gnadgooglemediationadapter:GNAdGoogleMediationAdapter:6.2.1.0">
+    <androidPackage spec="jp.co.geniee.gnadgooglemediationadapter:GNAdGoogleMediationAdapter:8.1.0.0">
     <androidSdkPackageIds>
         <androidSdkPackageId>extra-geniee-repository</androidSdkPackageId>
       </androidSdkPackageIds>
@@ -129,7 +91,7 @@
       </repositories>
     </androidPackage>
 
-    <androidPackage spec="jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-AdColony:4.2.2">
+    <androidPackage spec="jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-AdColony:6.0.0">
       <androidSdkPackageIds>
         <androidSdkPackageId>extra-geniee-repository</androidSdkPackageId>
       </androidSdkPackageIds>
@@ -139,7 +101,7 @@
       </repositories>
     </androidPackage>
 
-    <androidPackage spec="jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-Amoad:4.2.2">
+    <androidPackage spec="jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-Amoad:6.0.0">
       <androidSdkPackageIds>
         <androidSdkPackageId>extra-geniee-repository</androidSdkPackageId>
       </androidSdkPackageIds>
@@ -148,7 +110,7 @@
       </repositories>
     </androidPackage>
 
-    <androidPackage spec="jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-AppLovin:4.2.2">
+    <androidPackage spec="jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-AppLovin:6.0.0">
       <androidSdkPackageIds>
         <androidSdkPackageId>extra-geniee-repository</androidSdkPackageId>
       </androidSdkPackageIds>
@@ -157,7 +119,7 @@
       </repositories>
     </androidPackage>
 
-    <androidPackage spec="jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-CAReward:4.2.2">
+    <androidPackage spec="jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-CAReward:6.0.0">
       <androidSdkPackageIds>
         <androidSdkPackageId>extra-geniee-repository</androidSdkPackageId>
       </androidSdkPackageIds>
@@ -166,7 +128,7 @@
       </repositories>
     </androidPackage>
 
-    <androidPackage spec="jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-Maio:4.2.2">
+    <androidPackage spec="jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-Maio:6.0.0">
     <androidSdkPackageIds>
         <androidSdkPackageId>extra-geniee-repository</androidSdkPackageId>
       </androidSdkPackageIds>
@@ -176,7 +138,7 @@
       </repositories>
     </androidPackage>
 
-    <androidPackage spec="jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-Nend:4.2.2">
+    <androidPackage spec="jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-Nend:6.0.0">
       <androidSdkPackageIds>
         <androidSdkPackageId>extra-geniee-repository</androidSdkPackageId>
       </androidSdkPackageIds>
@@ -186,7 +148,7 @@
       </repositories>
     </androidPackage>
 
-    <androidPackage spec="jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-Tapjoy:4.2.2">
+    <androidPackage spec="jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-Tapjoy:6.0.0">
       <androidSdkPackageIds>
         <androidSdkPackageId>extra-geniee-repository</androidSdkPackageId>
       </androidSdkPackageIds>
@@ -194,8 +156,8 @@
         <repository>https://raw.github.com/geniee-ssp/Geniee-Android-SDK/master/repository</repository>
       </repositories>
     </androidPackage>
-
-    <androidPackage spec="jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-UnityAds:4.2.2">
+    
+    <androidPackage spec="jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-UnityAds:6.0.0">
     <androidSdkPackageIds>
         <androidSdkPackageId>extra-geniee-repository</androidSdkPackageId>
       </androidSdkPackageIds>
@@ -204,13 +166,22 @@
       </repositories>
     </androidPackage>
     
-    <androidPackage spec="jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-Vungle:4.2.2">
+    <androidPackage spec="jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-Vungle:6.0.0">
     <androidSdkPackageIds>
         <androidSdkPackageId>extra-geniee-repository</androidSdkPackageId>
       </androidSdkPackageIds>
       <repositories>
         <repository>https://raw.github.com/geniee-ssp/Geniee-Android-SDK/master/repository</repository>
       </repositories>
+    </androidPackage>
+        
+    <androidPackage spec="jp.co.geniee.gnsrewardadapter:GNSRewardAdapter-TikTok:6.0.0">
+    <androidSdkPackageIds>
+        <androidSdkPackageId>extra-geniee-repository</androidSdkPackageId>
+    </androidSdkPackageIds>
+    <repositories>
+        <repository>https://raw.github.com/geniee-ssp/Geniee-Android-SDK/master/repository</repository>
+    </repositories>
     </androidPackage>
         
   </androidPackages>
@@ -240,7 +211,7 @@
 
     <iosPod name="TapjoySDK" version="~> 12.3.4" />
 
-    <iosPod name="UnityAds" version="~> 3.3.0" />
+    <iosPod name="UnityAds" version="~> 3.5.1" />
 
     <iosPod name="VungleSDK-iOS" version="~> 6.4.5" />
 

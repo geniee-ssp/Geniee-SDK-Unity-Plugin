@@ -58,8 +58,8 @@ dependencies {
     implementation 'androidx.multidex:multidex:2.0.1' // Assets/PlayServicesResolver/Editor/GNDependencies.xml:34
     implementation 'com.google.android.gms:play-services-ads:18.2.0' // Assets/GoogleMobileAds/Editor/GoogleMobileAdsDependencies.xml:7
     implementation 'com.google.android.gms:play-services-location:17.0.0' // Assets/PlayServicesResolver/Editor/GNDependencies.xml:25
-    implementation 'jp.co.geniee.gnadgooglemediationadapter:GNAdGoogleMediationAdapter:6.2.0.0' // Assets/PlayServicesResolver/Editor/GNDependencies.xml:52
-    implementation 'jp.co.geniee.gnadsdk:GNAdSDK:6.2.0' // Assets/PlayServicesResolver/Editor/GNDependencies.xml:43
+    implementation 'jp.co.geniee.gnadgooglemediationadapter:GNAdGoogleMediationAdapter:8.1.0.0' // Assets/PlayServicesResolver/Editor/GNDependencies.xml:52
+    implementation 'jp.co.geniee.gnadsdk:GNAdSDK:8.1.0' // Assets/PlayServicesResolver/Editor/GNDependencies.xml:43
 // Android Resolver Dependencies End
 **DEPS**}
 
