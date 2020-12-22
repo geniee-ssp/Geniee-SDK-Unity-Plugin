@@ -119,7 +119,7 @@ public class MainScene : MonoBehaviour {
 #if UNITY_ANDROID
         defaultAdUnitId = "ここにAdUnitIdを入れてください";
 #elif UNITY_IPHONE
-        defaultAdUnitId = "ca-app-pub-7601958318599892/4198203453";
+        defaultAdUnitId = "ここにAdUnitIdを入れてください";
 #else 
         defaultAdUnitId = "ここにAdUnitIdを入れてください";
 #endif

@@ -33,7 +33,7 @@
       </repositories>
     </androidPackage>
         
-    <androidPackage spec="jp.co.geniee.gnadsdk:GNAdSDK:6.2.0">
+    <androidPackage spec="jp.co.geniee.gnadsdk:GNAdSDK:8.1.0">
     <androidSdkPackageIds>
         <androidSdkPackageId>extra-geniee-repository</androidSdkPackageId>
       </androidSdkPackageIds>
@@ -42,7 +42,7 @@
       </repositories>
     </androidPackage>
 
-    <androidPackage spec="jp.co.geniee.gnadgooglemediationadapter:GNAdGoogleMediationAdapter:6.2.0.0">
+    <androidPackage spec="jp.co.geniee.gnadgooglemediationadapter:GNAdGoogleMediationAdapter:8.1.0.0">
     <androidSdkPackageIds>
         <androidSdkPackageId>extra-geniee-repository</androidSdkPackageId>
       </androidSdkPackageIds>

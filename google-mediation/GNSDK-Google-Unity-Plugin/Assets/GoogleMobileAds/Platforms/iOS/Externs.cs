@@ -31,6 +31,9 @@ namespace GoogleMobileAds.iOS
             IntPtr mobileAdsClient, MobileAdsClient.GADUInitializationCompleteCallback callback);
 
         [DllImport("__Internal")]
+        internal static extern void GADUDisableMediationInitialization();
+
+        [DllImport("__Internal")]
         internal static extern IntPtr GADUGetInitDescription(IntPtr status, string className);
 
         [DllImport("__Internal")]
@@ -217,6 +220,18 @@ namespace GoogleMobileAds.iOS
         [DllImport("__Internal")]
         internal static extern IntPtr GADUMediationAdapterClassNameForBannerView(IntPtr bannerView);
 
+        [DllImport("__Internal")]
+        internal static extern IntPtr GADUGetResponseInfo(IntPtr adFormat);
+
+        [DllImport("__Internal")]
+        internal static extern string GADUResponseInfoMediationAdapterClassName(IntPtr responseInfo);
+
+        [DllImport("__Internal")]
+        internal static extern string GADUResponseInfoResponseId(IntPtr responseInfo);
+
+        [DllImport("__Internal")]
+        internal static extern string GADUGetResponseInfoDescription(IntPtr responseInfo);
+
         #endregion
 
         #region Interstitial externs
@@ -340,6 +355,40 @@ namespace GoogleMobileAds.iOS
 
         [DllImport("__Internal")]
         internal static extern IntPtr GADUMediationAdapterClassNameForRewardedAd(IntPtr rewardedVideo);
+
+        #endregion
+
+        #region RewardedInterstitialAd externs
+
+        [DllImport("__Internal")]
+        internal static extern IntPtr GADUCreateRewardedInterstitialAd(IntPtr rewardedInterstitialAd);
+
+        [DllImport("__Internal")]
+        internal static extern IntPtr GADULoadRewardedInterstitialAd(IntPtr rewardedInterstitialAd, string adUnitID, IntPtr request);
+
+        [DllImport("__Internal")]
+        internal static extern void GADUShowRewardedInterstitialAd(IntPtr rewardedInterstitialAd);
+
+        [DllImport("__Internal")]
+        internal static extern void GADUSetRewardedInterstitialAdCallbacks(
+            IntPtr rewardedInterstitialAd,
+            RewardedInterstitialAdClient.GADURewardedInterstitialAdLoadedCallback adLoadedCallback,
+            RewardedInterstitialAdClient.GADURewardedInterstitialAdFailedToLoadCallback adFailedToLoadCallback,
+            RewardedInterstitialAdClient.GADUUserEarnedRewardCallback adDidEarnRewardCallback,
+            RewardedInterstitialAdClient.GADURewardedInterstitialAdPaidEventCallback paidEventCallback,
+            RewardedInterstitialAdClient.GADUFailedToPresentFullScreenContentCallback adFailToPresentFullScreenContentCallback,
+            RewardedInterstitialAdClient.GADUDidPresentFullScreenContentCallback adDidPresentFullScreenContentCallback,
+            RewardedInterstitialAdClient.GADUDidDismissFullScreenContentCallback adDidDismissFullScreenContentCallback
+        );
+
+        [DllImport("__Internal")]
+        internal static extern void GADURewardedInterstitialAdSetServerSideVerificationOptions(IntPtr rewardedAd, IntPtr options);
+
+        [DllImport("__Internal")]
+        internal static extern string GADURewardedInterstitialAdGetRewardType(IntPtr rewardedInterstitialAd);
+
+        [DllImport("__Internal")]
+        internal static extern double GADURewardedInterstitialAdGetRewardAmount(IntPtr rewardedInterstitialAd);
 
         #endregion
 
