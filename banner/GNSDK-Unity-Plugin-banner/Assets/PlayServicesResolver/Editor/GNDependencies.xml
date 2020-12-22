@@ -98,7 +98,7 @@
     </androidPackage>
 
 	<!-- GNAdSDK -->
-    <androidPackage spec="jp.co.geniee.gnadsdk:GNAdSDK:6.2.0">
+    <androidPackage spec="jp.co.geniee.gnadsdk:GNAdSDK:8.1.0">
     <androidSdkPackageIds>
         <androidSdkPackageId>extra-geniee-repository</androidSdkPackageId>
       </androidSdkPackageIds>

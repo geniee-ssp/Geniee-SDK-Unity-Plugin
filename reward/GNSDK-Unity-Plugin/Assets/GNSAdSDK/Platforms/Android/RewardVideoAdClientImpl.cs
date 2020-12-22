@@ -67,7 +67,7 @@ namespace GNSAdSDK.Android
             CurrentActivity.Call("runOnUiThread", new AndroidJavaRunnable(() =>
 				{
                     GnsRewardVideoAd.Call("setZoneId", zoneId);
-                    GnsRewardVideoAd.Call<bool>("loadRequest");
+                    GnsRewardVideoAd.Call<bool>("loadRequest", true);
                 }));
         }
         // 動画広告のロード完了確認

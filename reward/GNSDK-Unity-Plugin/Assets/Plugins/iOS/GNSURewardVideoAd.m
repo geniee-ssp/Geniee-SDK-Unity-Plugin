@@ -31,7 +31,7 @@
 
 - (void)loadAd:(NSString *)zoneId {
   GNSRequest *request = [GNSRequest request];
-  [[GNSRewardVideoAd sharedInstance] loadRequest:request withZoneID:zoneId];
+  [[GNSRewardVideoAd sharedInstance] loadRequest:request withZoneID:zoneId isRTB: true];
 }
 
 - (void)show {

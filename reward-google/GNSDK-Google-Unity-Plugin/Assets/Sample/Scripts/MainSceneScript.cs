@@ -43,7 +43,7 @@ public class MainSceneScript : MonoBehaviour
         GameObject.Find("ShowButton").GetComponent<Button>().onClick.AddListener(ShowRewardVideoAd);
         GameObject.Find("NextSceneButton").GetComponent<Button>().onClick.AddListener(OnClickNextScene);
         request = new AdRequest.Builder()
-                               //.AddTestDevice("YOUR_DEVICE_ID")
+                               // .AddTestDevice(AdMobUtility.GetTestDeviceId()) // Please remove it in the production environment
                                .Build();
         adUnitId = PlayerPrefs.GetString(adUnitIdKey, "");
         if (adUnitId.Equals(""))
