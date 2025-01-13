@@ -1,0 +1,89 @@
+buildscript {
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:4.0.1'
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        // GenieeSDK
+        maven {
+            url 'https://raw.github.com/geniee-ssp/Geniee-Android-SDK/master/repository'
+        }
+    }
+}
+
+def LibName = 'unity-genieesdk-plugin'
+def LibVersion = '1.0.0'
+
+apply plugin: 'com.android.library'
+apply plugin: 'maven'
+
+android {
+    compileSdkVersion 34
+
+    defaultConfig {
+        minSdkVersion 19
+        targetSdkVersion 34
+        versionName "${LibVersion}"
+    }
+
+    buildTypes {
+        release {
+//            minifyEnabled true
+//            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    lintOptions {
+        abortOnError false
+    }
+}
+
+// 環境変数に`GN_ANDROID_SAMPLE_PROJECT_PATH`を設定し、`ssp-android-sdk-samples`のファイルパスを設定してください。
+// 各gradle taskを実行することで、`ssp-android-sdk-samples`にjarとaarファイルを作成できます。
+// 新しくSDKを作成する場合は`GNAdSDKLibVersion`を変更してください。
+// task実行時は、terminalで`./gradlew --rerun-tasks xxxxxx`を実行してください。
+// taskが失敗する場合は、`--debug`か`--info`のオプションをつけてエラー内容を確認してください。
+//      ./gradlew --rerun-tasks makeJar:            releaseフォルダにjarファイルを作成します。
+//                                                  必ず`makeJar`実行後に実施してください。
+
+// Set the environment variable `GN_ANDROID_SAMPLE_PROJECT_PATH` and set the` ssp-android-sdk-samples` file path.
+// You can create jars and aar files in the `ssp-android-sdk-samples` project by executing each gradle task.
+// To create a new SDK, please change `GNAdSDKLibVersion`.
+// When executing task, execute `./gradlew --rerun-tasks xxxxxx` at terminal.
+// If the task fails, please check the error contents with `--debug` or` --info` option.
+//      ./gradlew --rerun-tasks makeJar:            Create a jar file in the release folder.
+//                                                  Make sure to execute after `makeJar` execution.
+
+
+def build_path = "build/intermediates/aar_main_jar/release/"
+
+def release_folder_path = "release"
+def release_lib_path = "${release_folder_path}/${LibName}-${LibVersion}.jar"
+
+dependencies {
+    compileOnly 'androidx.appcompat:appcompat:1.6.1'
+    compileOnly 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation files('libs/unity-classes.jar')
+
+    // GenieeSDK
+    compileOnly 'jp.co.geniee.gnadsdk:GNAdSDK:8.7.0'
+}
+
+
+task clearJar(type: Delete) {
+    delete "${release_lib_path}"
+}
+task makeJar(type: Copy) {
+    from("${build_path}")
+    into("${release_folder_path}")
+    include('classes.jar')
+    rename('classes.jar', LibName + '-' + LibVersion + '.jar')
+}
+makeJar.dependsOn(clearJar, build)

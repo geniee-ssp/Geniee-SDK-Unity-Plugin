@@ -1,0 +1,21 @@
+# ninja log v5
+1982	5366	1736741522823448768	/Users/nguyenduylong/Documents/Working/Gitlab/GN_SDKs/ssp-unity-sdk/GenieeUnitySample/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/7125u6g2/obj/arm64-v8a/libgame.so	b051c1816782a8e2
+0	1982	1736741519470548006	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	117daae2b91046cf
+1	1564	1736741519046988955	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	cba4cd00bc696828
+2	1855	1736741519343592433	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	aaf1050ad406ee13
+3	1465	1736741518948982471	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	13d49fcc2168f6cc
+1	1274	1736741518760482885	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	7e0ed707e6e51bd3
+2	1262	1736741518748014827	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	e1c49c18fafc0474
+2	1352	1736741518837171266	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	19717c43ab4f66ea
+232	436	1736741517892318320	/Users/nguyenduylong/Documents/Working/Gitlab/GN_SDKs/ssp-unity-sdk/GenieeUnitySample/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/7125u6g2/obj/arm64-v8a/libswappywrapper.so	28a077a540fbde70
+3	231	1736741517713709939	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	ea30571aa9bb1762
+13	5366	1736742705655246414	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	ea30571aa9bb1762
+6	7489	1736742707770437314	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	e1c49c18fafc0474
+4	7506	1736742707787448299	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	7e0ed707e6e51bd3
+8	7691	1736742707970776436	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	19717c43ab4f66ea
+10	7913	1736742708181729180	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	13d49fcc2168f6cc
+3	8083	1736742708361990691	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	cba4cd00bc696828
+5	8583	1736742708861308014	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	aaf1050ad406ee13
+2	8850	1736742709131810242	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	117daae2b91046cf
+5367	9550	1736742709793984236	/Users/nguyenduylong/Documents/Working/Gitlab/GN_SDKs/ssp-unity-sdk/GenieeUnitySample/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/7125u6g2/obj/arm64-v8a/libswappywrapper.so	28a077a540fbde70
+8850	13634	1736742713864726473	/Users/nguyenduylong/Documents/Working/Gitlab/GN_SDKs/ssp-unity-sdk/GenieeUnitySample/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/7125u6g2/obj/arm64-v8a/libgame.so	b051c1816782a8e2

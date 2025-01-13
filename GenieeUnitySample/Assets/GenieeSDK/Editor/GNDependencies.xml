@@ -1,0 +1,41 @@
+<dependencies>
+  <!-- Android dependencies are specified under the "androidPackages" element.
+       Each "androidPackage" element contains the attributes of an Android
+       dependency (e.g AAR, JAR reference). -->
+  <androidPackages>
+    <androidPackage spec="com.google.android.gms:play-services-ads:23.6.0">
+      <repositories>
+        <repository>https://maven.google.com/</repository>
+      </repositories>
+    </androidPackage>
+    <androidPackage spec="androidx.constraintlayout:constraintlayout:2.1.4">
+      <repositories>
+        <repository>https://maven.google.com/</repository>
+      </repositories>
+    </androidPackage>
+	<!-- GNAdSDK -->
+    <androidPackage spec="jp.co.geniee.gnadsdk:GNAdSDK:8.7.0">
+    <androidSdkPackageIds>
+        <androidSdkPackageId>extra-geniee-repository</androidSdkPackageId>
+      </androidSdkPackageIds>
+      <repositories>
+        <repository>https://raw.github.com/geniee-ssp/Geniee-Android-SDK/master/repository</repository>
+      </repositories>
+    </androidPackage>
+
+  </androidPackages>
+
+  <!-- iOS Cocoapod dependencies can be specified by each iosPod element. -->
+ 
+  <iosPods>
+ 
+    <iosPod name="Geniee-iOS-SDK" />
+    <iosPod name="Geniee-Mediation-Pangle-Adapter" />
+    <iosPod name="Geniee-Mediation-AppLovin-Adapter" />
+    <iosPod name="Geniee-Mediation-GoogleAdManager-Adapter" />
+    <iosPod name="Geniee-Mediation-Vungle-Adapter" />
+    <iosPod name="Geniee-Mediation-UnityAds-Adapter" />
+    <iosPod name="Geniee-Mediation-Maio-Adapter" />
+
+  </iosPods>
+</dependencies>

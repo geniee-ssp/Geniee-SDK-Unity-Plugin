@@ -1,0 +1,8 @@
+/Users/nguyenduylong/Desktop/GenieeUnitySample/.utmp/RelWithDebInfo/4i2w2o5y/armeabi-v7a/CMakeFiles/edit_cache.dir
+/Users/nguyenduylong/Desktop/GenieeUnitySample/.utmp/RelWithDebInfo/4i2w2o5y/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/Users/nguyenduylong/Desktop/GenieeUnitySample/.utmp/RelWithDebInfo/4i2w2o5y/armeabi-v7a/GameActivity/CMakeFiles/game.dir
+/Users/nguyenduylong/Desktop/GenieeUnitySample/.utmp/RelWithDebInfo/4i2w2o5y/armeabi-v7a/GameActivity/CMakeFiles/edit_cache.dir
+/Users/nguyenduylong/Desktop/GenieeUnitySample/.utmp/RelWithDebInfo/4i2w2o5y/armeabi-v7a/GameActivity/CMakeFiles/rebuild_cache.dir
+/Users/nguyenduylong/Desktop/GenieeUnitySample/.utmp/RelWithDebInfo/4i2w2o5y/armeabi-v7a/FramePacing/CMakeFiles/swappywrapper.dir
+/Users/nguyenduylong/Desktop/GenieeUnitySample/.utmp/RelWithDebInfo/4i2w2o5y/armeabi-v7a/FramePacing/CMakeFiles/edit_cache.dir
+/Users/nguyenduylong/Desktop/GenieeUnitySample/.utmp/RelWithDebInfo/4i2w2o5y/armeabi-v7a/FramePacing/CMakeFiles/rebuild_cache.dir

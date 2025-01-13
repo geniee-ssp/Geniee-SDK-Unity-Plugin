@@ -1,0 +1,21 @@
+# ninja log v5
+9	9674	1736241995390160513	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	7f4d0f2c7828bba4
+10	8924	1736241994616846955	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	72f064e61e8123be
+6322	10798	1736241996484249236	/Users/nguyenduylong/Desktop/GenieeUnitySample/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/4i2w2o5y/obj/arm64-v8a/libswappywrapper.so	c435e671d960b107
+11	8286	1736241993999830390	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	ce68c23ef0944e03
+13	9425	1736241995093905172	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	8bad17a3f679b5e0
+18	8727	1736241994445116910	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	5aef1d1efaa95789
+14	8296	1736241993999287797	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	9edb02f5d703479d
+21	6321	1736241992047336913	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	5169148745f34da0
+9674	16089	1736242001788259626	/Users/nguyenduylong/Desktop/GenieeUnitySample/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/4i2w2o5y/obj/arm64-v8a/libgame.so	56ef6a3b227a88e9
+16	8434	1736241994147657512	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	9e953da69c5f210
+26	3721	1736392799686246911	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	5169148745f34da0
+25	4849	1736392800814301052	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	9edb02f5d703479d
+24	4867	1736392800823037324	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	ce68c23ef0944e03
+25	4957	1736392800920532423	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	9e953da69c5f210
+25	5106	1736392801070202739	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	5aef1d1efaa95789
+23	5245	1736392801208850153	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	72f064e61e8123be
+24	5513	1736392801482101311	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	8bad17a3f679b5e0
+23	5646	1736392801614955453	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	7f4d0f2c7828bba4
+3723	6642	1736392802587447823	/Users/nguyenduylong/Desktop/GenieeUnitySample/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/4i2w2o5y/obj/arm64-v8a/libswappywrapper.so	c435e671d960b107
+5646	11147	1736392807080628460	/Users/nguyenduylong/Desktop/GenieeUnitySample/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/4i2w2o5y/obj/arm64-v8a/libgame.so	56ef6a3b227a88e9
