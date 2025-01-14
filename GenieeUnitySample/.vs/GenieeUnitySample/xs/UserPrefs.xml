@@ -1,0 +1,42 @@
+﻿<Properties StartupConfiguration="{EDF4E77C-AC18-CC2E-C6C7-F5A9A1880BAA}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/InterstitialSceneScript.cs">
+    <Files>
+      <File FileName="Assets/GenieeSDK/Editor/GNDependencies.xml" Line="32" Column="5" />
+      <File FileName="Assets/GNSAdSDK/Platforms/iOS/FullscreenInterstitialAdClientImpl.cs" Line="40" Column="36" />
+      <File FileName="Assets/GNSAdSDK/Platforms/iOS/Externs.cs" />
+      <File FileName="Assets/GNSAdSDK/Platforms/iOS/RewardVideoAdClientImpl.cs" />
+      <File FileName="Assets/Scripts/RewardSceneScript.cs" Line="116" Column="30" />
+      <File FileName="Assets/Scripts/InterstitialSceneScript.cs" Line="103" Column="6" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="GenieeUnitySample" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="GenieeSDK" expanded="True" />
+              <Node name="GNSAdSDK" expanded="True">
+                <Node name="Api" expanded="True" />
+                <Node name="Platforms" expanded="True">
+                  <Node name="iOS" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="Plugins" expanded="True">
+                <Node name="GNAdManager" expanded="True" />
+              </Node>
+              <Node name="Scripts" expanded="True">
+                <Node name="InterstitialSceneScript.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="8b4cd7a2-b65f-4327-988c-4ff667965276" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -1,0 +1,8 @@
+/Users/nguyenduylong/Documents/Working/Gitlab/GN_SDKs/ssp-unity-sdk/GenieeUnitySample/.utmp/RelWithDebInfo/7125u6g2/armeabi-v7a/CMakeFiles/edit_cache.dir
+/Users/nguyenduylong/Documents/Working/Gitlab/GN_SDKs/ssp-unity-sdk/GenieeUnitySample/.utmp/RelWithDebInfo/7125u6g2/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/Users/nguyenduylong/Documents/Working/Gitlab/GN_SDKs/ssp-unity-sdk/GenieeUnitySample/.utmp/RelWithDebInfo/7125u6g2/armeabi-v7a/GameActivity/CMakeFiles/game.dir
+/Users/nguyenduylong/Documents/Working/Gitlab/GN_SDKs/ssp-unity-sdk/GenieeUnitySample/.utmp/RelWithDebInfo/7125u6g2/armeabi-v7a/GameActivity/CMakeFiles/edit_cache.dir
+/Users/nguyenduylong/Documents/Working/Gitlab/GN_SDKs/ssp-unity-sdk/GenieeUnitySample/.utmp/RelWithDebInfo/7125u6g2/armeabi-v7a/GameActivity/CMakeFiles/rebuild_cache.dir
+/Users/nguyenduylong/Documents/Working/Gitlab/GN_SDKs/ssp-unity-sdk/GenieeUnitySample/.utmp/RelWithDebInfo/7125u6g2/armeabi-v7a/FramePacing/CMakeFiles/swappywrapper.dir
+/Users/nguyenduylong/Documents/Working/Gitlab/GN_SDKs/ssp-unity-sdk/GenieeUnitySample/.utmp/RelWithDebInfo/7125u6g2/armeabi-v7a/FramePacing/CMakeFiles/edit_cache.dir
+/Users/nguyenduylong/Documents/Working/Gitlab/GN_SDKs/ssp-unity-sdk/GenieeUnitySample/.utmp/RelWithDebInfo/7125u6g2/armeabi-v7a/FramePacing/CMakeFiles/rebuild_cache.dir
